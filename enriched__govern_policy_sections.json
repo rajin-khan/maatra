@@ -1,0 +1,1177 @@
+[
+  {
+    "type": "Govern",
+    "title": "GOVERN 1.1",
+    "category": "GOVERN-1",
+    "description": "Legal and regulatory requirements involving AI are understood, managed, and documented.",
+    "section_about": "AI systems may be subject to specific applicable legal and regulatory requirements. Some legal requirements can mandate (e.g., nondiscrimination, data privacy and security controls) documentation, disclosure, and increased AI system transparency. These requirements are complex and may not be applicable or differ across applications and contexts. \n \nFor example, AI system testing processes for bias measurement, such as disparate impact, are not applied uniformly within the legal context. Disparate impact is broadly defined as a facially neutral policy or practice that disproportionately harms a group based on a protected trait. Notably, some modeling algorithms or debiasing techniques that rely on demographic information, could also come into tension with legal prohibitions on disparate treatment (i.e., intentional discrimination).\n\nAdditionally, some intended users of AI systems may not have consistent or reliable access to fundamental internet technologies (a phenomenon widely described as the \u201cdigital divide\u201d) or may experience difficulties interacting with AI systems due to disabilities or impairments. Such factors may mean different communities experience bias or other negative impacts when trying to access AI systems. Failure to address such design issues may pose legal risks, for example in employment related activities affecting persons with disabilities.",
+    "section_actions": "* Maintain awareness of the applicable legal and regulatory considerations and requirements specific to industry, sector, and business purpose, as well as the application context of the deployed AI system.\n* Align risk management efforts with applicable legal standards.\n* Maintain policies for training (and re-training) organizational staff about necessary legal or regulatory considerations that may impact AI-related design, development and deployment activities.",
+    "section_doc": "### Organizations can document the following\n- To what extent has the entity defined and documented the regulatory environment\u2014including minimum requirements in laws and regulations?\n- Has the system been reviewed for its compliance to applicable laws, regulations, standards, and guidance? \n- To what extent has the entity defined and documented the regulatory environment\u2014including applicable requirements in laws and regulations? \n- Has the system been reviewed for its compliance to relevant applicable laws, regulations, standards, and guidance? \n\n### AI Transparency Resources\n\nGAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)",
+    "section_ref": "Andrew Smith, \"Using Artificial Intelligence and Algorithms,\" FTC Business Blog (2020). [URL](https://www.ftc.gov/business-guidance/blog/2020/04/using-artificial-intelligence-and-algorithms)\n \nRebecca Kelly Slaughter, \"Algorithms and Economic Justice,\" ISP Digital Future Whitepaper & YJoLT Special Publication (2021). [URL](https://law.yale.edu/sites/default/files/area/center/isp/documents/algorithms_and_economic_justice_master_final.pdf)\n \nPatrick Hall, Benjamin Cox, Steven Dickerson, Arjun Ravi Kannan, Raghu Kulkarni, and Nicholas Schmidt, \"A United States fair lending perspective on machine learning,\" Frontiers in Artificial Intelligence 4 (2021). [URL](https://www.frontiersin.org/articles/10.3389/frai.2021.695301/full)\n\nAI Hiring Tools and the Law, Partnership on Employment & Accessible Technology (PEAT, peatworks.org). [URL](https://www.peatworks.org/ai-disability-inclusion-toolkit/ai-hiring-tools-and-the-law/)",
+    "AI Actors": [
+      "Governance and Oversight"
+    ],
+    "Topic": [
+      "Legal and Regulatory",
+      "Governance",
+      "AI Actor Training"
+    ],
+    "query": [
+      "What are the applicable legal and regulatory requirements for AI systems in your industry and business context?",
+      "How does your organization ensure alignment between AI risk management efforts and applicable legal standards?",
+      "What measures does your organization take to address potential biases in AI systems?",
+      "How does your organization handle the digital divide and accessibility issues related to AI systems?",
+      "What steps are taken to ensure that AI systems comply with data privacy and security controls?",
+      "How is training for organizational staff about legal and regulatory considerations for AI conducted?",
+      "What processes are in place to review AI systems for compliance with applicable laws, regulations, and standards?",
+      "How does your organization ensure transparency in AI systems?",
+      "What references or resources does your organization use to stay informed about legal and regulatory requirements for AI?",
+      "How does your organization manage legal risks associated with AI systems, such as those related to employment and disability?"
+    ],
+    "validator": [
+      "The user should list specific legal and regulatory requirements relevant to their industry, business purpose, and AI application context.",
+      "The user should describe how their risk management framework incorporates legal standards, including any specific processes or frameworks used.",
+      "The user should explain methods used to identify and mitigate biases in AI systems, including any testing processes or debiasing techniques.",
+      "The user should describe strategies to address the digital divide and accessibility issues, such as ensuring equitable access and accommodating disabilities.",
+      "The user should outline measures taken to protect data privacy and security, including any controls or policies in place.",
+      "The user should detail the training programs for staff, including frequency, content, and methods of delivery.",
+      "The user should describe the compliance review processes, including who conducts the reviews, the scope of the reviews, and how findings are addressed.",
+      "The user should explain how transparency is ensured in AI systems, including any disclosure practices or documentation provided to stakeholders.",
+      "The user should list relevant references, resources, or frameworks used to stay informed about legal and regulatory requirements.",
+      "The user should describe how legal risks are managed, including any specific strategies or safeguards implemented to mitigate risks related to AI systems."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 1.2",
+    "category": "GOVERN-1",
+    "description": "The characteristics of trustworthy AI are integrated into organizational policies, processes, and procedures.",
+    "section_about": "Policies, processes, and procedures are central components of effective AI risk management and fundamental to individual and organizational accountability. All stakeholders benefit from policies, processes, and procedures which require preventing harm by design and default. \n\nOrganizational policies and procedures will vary based on available resources and risk profiles, but can help systematize AI actor roles and responsibilities throughout the AI lifecycle. Without such policies, risk management can be subjective across the organization, and exacerbate rather than minimize risks over time.  Policies, or summaries thereof, are understandable to relevant AI actors. Policies reflect an understanding of the underlying metrics, measurements, and tests that are necessary to support policy and AI system design, development, deployment and use.\n\nLack of clear information about responsibilities and chains of command will limit the effectiveness of risk management.",
+    "section_actions": "Organizational AI risk management policies should be designed to:\n\n- Define key terms and concepts related to AI systems and the scope of their purposes and intended uses.\n- Connect AI governance to existing organizational governance and risk controls. \n- Align to broader data governance policies and practices, particularly the use of sensitive or otherwise risky data.\n- Detail standards for experimental design, data quality, and model training.\n- Outline and document risk mapping and measurement processes and standards.\n- Detail model testing and validation processes.\n- Detail review processes for legal and risk functions.\n- Establish the frequency of and detail for monitoring, auditing and review processes.\n- Outline change management requirements.\n- Outline processes for internal and external stakeholder engagement.\n- Establish whistleblower policies to facilitate reporting of serious AI system concerns.\n- Detail and test incident response plans.\n- Verify that formal AI risk management policies align to existing legal standards, and industry best practices and norms.\n- Establish AI risk management policies that broadly align to AI system trustworthy characteristics.\n- Verify that formal AI risk management policies include currently deployed and third-party AI systems.",
+    "section_doc": "### Organizations can document the following\n- To what extent do these policies foster public trust and confidence in the use of the AI system?\n- What policies has the entity developed to ensure the use of the AI system is consistent with its stated values and principles?\n- What policies and documentation has the entity developed to encourage the use of its AI system as intended?\n- To what extent are the model outputs consistent with the entity\u2019s values and principles to foster public trust and equity?\n\n### AI Transparency Resources\n\n\nGAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)",
+    "section_ref": "Off. Comptroller Currency, Comptroller\u2019s Handbook: Model Risk Management (Aug. 2021). [URL](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)\n\nGAO, \u201cArtificial Intelligence: An Accountability Framework for Federal Agencies and Other Entities,\u201d GAO@100 (GAO-21-519SP), June 2021. [URL](https://www.gao.gov/assets/gao-21-519sp.pdf)\n\nNIST, \"U.S. Leadership in AI: A Plan for Federal Engagement in Developing Technical Standards and Related Tools\". [URL](https://www.nist.gov/system/files/documents/2019/08/10/ai_standards_fedengagement_plan_9aug2019.pdf)\n\nLipton, Zachary and McAuley, Julian and Chouldechova, Alexandra, Does mitigating ML\u2019s impact disparity require treatment disparity? Advances in Neural Information Processing Systems, 2018. [URL](https://proceedings.neurips.cc/paper/2018/file/8e0384779e58ce2af40eb365b318cc32-Paper.pdf)\n\nJessica Newman (2023) \u201cA Taxonomy of Trustworthiness for Artificial Intelligence: Connecting Properties of Trustworthiness with Risk Management and the AI Lifecycle,\u201d UC Berkeley Center for Long-Term Cybersecurity. [URL](https://cltc.berkeley.edu/wp-content/uploads/2023/01/Taxonomy_of_AI_Trustworthiness.pdf)\n\nEmily Hadley (2022). Prioritizing Policies for Furthering Responsible Artificial Intelligence in the United States. 2022 IEEE International Conference on Big Data (Big Data), 5029-5038. [URL](https://arxiv.org/abs/2212.00740) \n\nSAS Institute, \u201cThe SAS\u00ae Data Governance Framework: A Blueprint for Success\u201d. [URL](https://www.sas.com/content/dam/SAS/en_us/doc/whitepaper1/sas-data-governance-framework-107325.pdf)\n\nISO, \u201cInformation technology \u2014 Reference Model of Data Management, \u201c ISO/IEC TR 10032:200. [URL](https://www.iso.org/standard/38607.html)\n\n\u201cPlay 5: Create a formal policy,\u201d Partnership on Employment & Accessible Technology (PEAT, peatworks.org). [URL](https://www.peatworks.org/ai-disability-inclusion-toolkit/the-equitable-ai-playbook/play-5-create-a-formal-equitable-ai-policy/) \n\n\"National Institute of Standards and Technology. (2018). Framework for improving critical infrastructure cybersecurity. [URL](https://nvlpubs.nist.gov/nistpubs/cswp/nist.cswp.04162018.pdf)\n\nKaitlin R. Boeckl and Naomi B. Lefkovitz. \"NIST Privacy Framework: A Tool for Improving Privacy Through Enterprise Risk Management, Version 1.0.\" National Institute of Standards and Technology (NIST), January 16, 2020. [URL](https://www.nist.gov/publications/nist-privacy-framework-tool-improving-privacy-through-enterprise-risk-management.)\n\n\u201cplainlanguage.gov \u2013 Home,\u201d The U.S. Government. [URL](https://www.plainlanguage.gov/)",
+    "AI Actors": [
+      "Governance and Oversight"
+    ],
+    "Topic": [
+      "Trustworthy Characteristics",
+      "Governance",
+      "Validity and Reliability",
+      "Safety",
+      "Secure and Resilient",
+      "Accountability and Transparency",
+      "Explainability and Interpretability",
+      "Privacy",
+      "Fairness and Bias"
+    ],
+    "query": [
+      "What are the key terms and concepts related to AI systems and their purposes?",
+      "How does the AI governance align with existing organizational governance and risk controls?",
+      "How are broader data governance policies and practices incorporated into AI risk management?",
+      "What are the standards for experimental design, data quality, and model training?",
+      "How are risk mapping and measurement processes and standards documented?",
+      "What are the model testing and validation processes?",
+      "What are the review processes for legal and risk functions?",
+      "What is the frequency and detail of monitoring, auditing, and review processes?",
+      "What change management requirements are in place?",
+      "What processes are in place for internal and external stakeholder engagement?",
+      "What incident response plans are in place?",
+      "How do formal AI risk management policies align with existing legal standards and industry best practices?",
+      "How are AI risk management policies integrated with currently deployed and third-party AI systems?",
+      "How do these policies foster public trust and confidence in the use of the AI system?",
+      "What policies ensure the use of the AI system is consistent with the organization's stated values and principles?",
+      "How are policies and documentation developed to encourage the intended use of the AI system?",
+      "To what extent are model outputs consistent with the organization's values and principles to foster public trust and equity?",
+      "How does the organization ensure that its AI policies are understandable to relevant AI actors?",
+      "How does the organization ensure that its AI policies reflect the underlying metrics, measurements, and tests necessary for policy and AI system design, development, deployment, and use?",
+      "What evidence is there that the AI risk management policies are effective in preventing harm by design and default?"
+    ],
+    "validator": [
+      "Ensure the answer defines key terms and concepts clearly and comprehensively.",
+      "Check that the alignment with existing governance is well-explained and relevant.",
+      "Verify that data governance practices are appropriately integrated.",
+      "Assess the comprehensiveness of experimental design and data quality standards.",
+      "Ensure risk mapping and measurement processes are clearly documented.",
+      "Evaluate the thoroughness of model testing and validation processes.",
+      "Confirm that legal and risk review processes are detailed and appropriate.",
+      "Check the frequency and detail of monitoring, auditing, and review processes.",
+      "Assess the change management requirements for AI systems.",
+      "Evaluate stakeholder engagement processes for inclusivity and effectiveness.",
+      "Ensure incident response plans are detailed and actionable.",
+      "Confirm that policies align with legal standards and industry best practices.",
+      "Verify that policies cover both internal and external AI systems.",
+      "Assess how policies foster public trust and confidence.",
+      "Check that policies align with organizational values and principles.",
+      "Ensure documentation encourages intended AI use.",
+      "Evaluate consistency with organizational values and principles.",
+      "Confirm that policies are understandable to relevant actors.",
+      "Assess whether policies reflect necessary metrics and tests.",
+      "Verify that policies effectively prevent harm by design and default."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 1.3",
+    "category": "GOVERN-1",
+    "description": "Processes and procedures are in place to determine the needed level of risk management activities based on the organization's risk tolerance.",
+    "section_about": "Risk management resources are finite in any organization. Adequate AI governance policies delineate the mapping, measurement, and prioritization of risks to allocate resources toward the most material issues for an AI system to ensure effective risk management. Policies may specify systematic processes for assigning mapped and measured risks to standardized risk scales. \n\nAI risk tolerances  range from negligible to critical \u2013 from, respectively, almost no risk to risks that can result in irredeemable human, reputational, financial, or environmental losses. Risk tolerance rating policies consider different sources of risk, (e.g., financial, operational, safety and wellbeing, business, reputational, or model risks). A typical risk measurement approach entails the multiplication, or qualitative combination, of measured or estimated impact and likelihood of impacts into a risk score (risk \u2248 impact x likelihood). This score is then placed on a risk scale. Scales for risk may be qualitative, such as red-amber-green (RAG), or may entail simulations or econometric approaches. Impact assessments are a common tool for understanding the severity of mapped risks. In the most fulsome AI risk management approaches, all models are assigned to a risk level.",
+    "section_actions": "- Establish policies to define mechanisms for measuring or understanding an AI system\u2019s potential impacts, e.g., via regular impact assessments at key stages in the AI lifecycle, connected to system impacts and frequency of system updates.\n- Establish policies to define mechanisms for measuring or understanding the likelihood of an AI system\u2019s impacts and their magnitude at key stages in the AI lifecycle. \n- Establish policies that define assessment scales for measuring potential AI system impact. Scales may be qualitative, such as red-amber-green (RAG), or may entail simulations or econometric approaches. \n- Establish policies for assigning an overall risk measurement approach for an AI system, or its important components, e.g., via multiplication or combination of a mapped risk\u2019s impact and likelihood (risk \u2248 impact x likelihood).\n- Establish policies to assign systems to uniform risk scales that are valid across the organization\u2019s AI portfolio (e.g. documentation templates), and acknowledge risk tolerance and risk levels may change over the lifecycle of an AI system.",
+    "section_doc": "### Organizations can document the following\n- How do system performance metrics inform risk tolerance decisions?\n- What policies has the entity developed to ensure the use of the AI system is consistent with organizational risk tolerance?\n- How do the entity\u2019s data security and privacy assessments inform risk tolerance decisions?\n\n\n### AI Transparency Resources\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)",
+    "section_ref": "Board of Governors of the Federal Reserve System. SR 11-7: Guidance on Model Risk Management. (April 4, 2011). [URL](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm)\n\nThe Office of the Comptroller of the Currency. Enterprise Risk Appetite Statement. (Nov. 20, 2019). [URL](https://www.occ.treas.gov/publications-and-resources/publications/banker-education/files/pub-risk-appetite-statement.pdf)\n\nBrenda Boultwood, How to Develop an Enterprise Risk-Rating Approach (Aug. 26, 2021). Global Association of Risk Professionals (garp.org). Accessed Jan. 4, 2023. [URL](https://www.garp.org/risk-intelligence/culture-governance/how-to-develop-an-enterprise-risk-rating-approach)\n\nGAO-17-63: Enterprise Risk Management: Selected Agencies\u2019 Experiences Illustrate Good Practices in Managing Risk. [URL](https://www.gao.gov/assets/gao-17-63.pdf)",
+    "AI Actors": [
+      "Governance and Oversight"
+    ],
+    "Topic": [
+      "Risk Tolerance",
+      "Governance"
+    ],
+    "query": [
+      "How does your organization define its risk tolerance for AI systems?",
+      "What processes are in place to measure the potential impacts of AI systems?",
+      "How are the likelihood and magnitude of impacts assessed for AI systems?",
+      "What scales or frameworks are used to measure potential AI system impacts?",
+      "How is the overall risk measurement approach for AI systems determined?",
+      "How are AI systems assigned to uniform risk scales across the organization?",
+      "How often is the risk tolerance reassessed for AI systems?",
+      "What documentation templates or tools are used to assign risk levels to AI systems?"
+    ],
+    "validator": [
+      "The answer should define the organization's risk tolerance, explaining what risks are acceptable and how they align with organizational goals. If the organization has a defined risk tolerance, it should be clearly stated. If not, the organization needs to develop one.",
+      "The answer should describe the processes for measuring impacts, including the metrics used. If the organization has established processes, they should be detailed. If not, the organization should develop and implement them.",
+      "The answer should explain how likelihood and magnitude are assessed, possibly using historical data or expert judgment. If the organization uses specific methods, they should be identified. If not, the organization should adopt appropriate methods.",
+      "The answer should list the scales or frameworks used, such as RAG. If recognized scales are used, they should be specified. If not, the organization should adopt appropriate scales or frameworks.",
+      "The answer should outline the approach for overall risk measurement, considering impact and likelihood. If a clear approach exists, it should be described. If not, the organization should develop one.",
+      "The answer should describe how uniform risk scales are assigned, possibly through templates. If a system is in place, it should be detailed. If not, the organization should implement one.",
+      "The answer should specify the frequency of reassessment, such as quarterly or annually. If a schedule exists, it should be stated. If not, the organization should establish a schedule.",
+      "The answer should list the templates or tools used for documentation. If templates exist, they should be identified. If not, the organization should create or adopt appropriate ones."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 1.4",
+    "category": "GOVERN-1",
+    "description": "The risk management process and its outcomes are established through transparent policies, procedures, and other controls based on organizational risk priorities.",
+    "section_about": "Clear policies and procedures relating to documentation and transparency facilitate and enhance efforts  to communicate roles and responsibilities for the Map, Measure and Manage functions across the AI lifecycle. Standardized documentation can help organizations systematically integrate AI risk management processes and enhance accountability efforts. For example, by adding their contact information to a work product document, AI actors can improve communication, increase ownership of work products, and potentially enhance consideration of product quality. Documentation may generate downstream benefits related to improved system replicability and robustness. Proper documentation storage and access procedures allow for quick retrieval of critical information during a negative incident. Explainable machine learning efforts (models and explanatory methods) may bolster technical documentation practices by introducing additional information for review and interpretation by AI Actors.",
+    "section_actions": "- Establish and regularly review documentation policies that, among others, address information related to:\n    - AI actors contact informations\n    - Business justification\n    - Scope and usages\n    - Expected and potential risks and impacts\n    - Assumptions and limitations\n    - Description and characterization of training data\n    - Algorithmic methodology\n    - Evaluated alternative approaches\n    - Description of output data\n    - Testing and validation results (including explanatory visualizations and information)\n    - Down- and up-stream dependencies\n    - Plans for deployment, monitoring, and change management\n    - Stakeholder engagement plans\n- Verify documentation policies for AI systems are standardized across the organization and remain current.\n- Establish policies for a model documentation inventory system and regularly review its completeness, usability, and efficacy.\n- Establish mechanisms to regularly review the efficacy of risk management processes.\n- Identify AI actors responsible for evaluating efficacy of risk management processes and approaches, and for course-correction based on results.\n- Establish policies and processes regarding public disclosure of the use of AI and risk management material such as impact assessments, audits, model documentation and validation and testing results.\n- Document and review the use and efficacy of different types of transparency tools and follow industry standards at the time a model is in use.",
+    "section_doc": "### Organizations can document the following\n- To what extent has the entity clarified the roles, responsibilities, and delegated authorities to relevant stakeholders?\n- What are the roles, responsibilities, and delegation of authorities of personnel involved in the design, development, deployment, assessment and monitoring of the AI system?\n- How will the appropriate performance metrics, such as accuracy, of the AI be monitored after the AI is deployed? How much distributional shift or model drift from baseline performance is acceptable?\n\n### AI Transparency Resources\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)\n- Intel.gov: AI Ethics Framework for Intelligence Community  - 2020. [URL](https://www.intelligence.gov/artificial-intelligence-ethics-framework-for-the-intelligence-community)",
+    "section_ref": "Bd. Governors Fed. Rsrv. Sys., Supervisory Guidance on Model Risk Management, SR Letter 11-7 (Apr. 4, 2011).\n\nOff. Comptroller Currency, Comptroller\u2019s Handbook: Model Risk Management (Aug. 2021). [URL](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)\n\nMargaret Mitchell et al., \u201cModel Cards for Model Reporting.\u201d Proceedings of 2019 FATML Conference. [URL](https://arxiv.org/pdf/1810.03993.pdf)\n\nTimnit Gebru et al., \u201cDatasheets for Datasets,\u201d Communications of the ACM 64, No. 12, 2021. [URL](https://arxiv.org/pdf/1803.09010.pdf)\n\nEmily M. Bender, Batya Friedman,  Angelina McMillan-Major (2022). A Guide for Writing Data Statements for Natural Language Processing. University of Washington. Accessed July 14, 2022. [URL](https://techpolicylab.uw.edu/wp-content/uploads/2021/11/Data_Statements_Guide_V2.pdf)\n\nM. Arnold, R. K. E. Bellamy, M. Hind, et al. FactSheets: Increasing trust in AI services through supplier\u2019s declarations of conformity. IBM Journal of Research and Development 63, 4/5 (July-September 2019), 6:1-6:13. [URL](https://techpolicylab.uw.edu/wp-content/uploads/2021/11/Data_Statements_Guide_V2.pdf)\n\nNavdeep Gill, Abhishek Mathur, Marcos V. Conde (2022). A Brief Overview of AI Governance for Responsible Machine Learning Systems. ArXiv, abs/2211.13130. [URL](https://arxiv.org/pdf/2211.13130.pdf)\n\nJohn Richards, David Piorkowski, Michael Hind, et al. A Human-Centered Methodology for Creating AI FactSheets. Bulletin of the IEEE Computer Society Technical Committee on Data Engineering. [URL](http://sites.computer.org/debull/A21dec/p47.pdf)\n\nChristoph Molnar, Interpretable Machine Learning, lulu.com. [URL](https://christophm.github.io/interpretable-ml-book/)\n\nDavid A. Broniatowski. 2021. Psychological Foundations of Explainability and Interpretability in Artificial Intelligence. National Institute of Standards and Technology (NIST) IR 8367. National Institute of Standards and Technology, Gaithersburg, MD. [URL](https://doi.org/10.6028/NIST.IR.8367)\n\nOECD (2022), \u201cOECD Framework for the Classification of AI systems\u201d, OECD Digital Economy Papers, No. 323, OECD Publishing, Paris. [URL](https://doi.org/10.1787/cb6d9eca-en)",
+    "AI Actors": [
+      "Governance and Oversight"
+    ],
+    "Topic": [
+      "Risk Management",
+      "Governance",
+      "Documentation"
+    ],
+    "query": [
+      "What is the primary purpose of establishing documentation policies for AI systems?",
+      "Which specific elements should be included in the documentation policies?",
+      "How will the organization ensure that documentation policies are standardized across all AI projects?",
+      "What mechanisms are in place to verify the current and completeness of documentation policies?",
+      "How will the organization manage and review the completeness and usability of a model documentation inventory system?",
+      "What are the roles and responsibilities of AI actors in evaluating the efficacy of risk management processes?",
+      "What policies and processes are in place for public disclosure of AI use and risk management materials?",
+      "What types of transparency tools are currently used, and how do they align with industry standards?"
+    ],
+    "validator": [
+      "The primary purpose should clearly state the goal of ensuring transparency, accountability, and effective risk management in AI systems.",
+      "The specific elements should include AI actors' contact information, business justification, scope and usages, risks and impacts, assumptions and limitations, training data description, algorithmic methodology, alternative approaches, output data description, testing and validation results, dependencies, deployment plans, monitoring, change management, and stakeholder engagement.",
+      "The organization should have a standardized framework or template that all teams must follow, ensuring consistency across projects.",
+      "Verification mechanisms could include regular audits, reviews by designated oversight teams, or automated checks to ensure documentation is up-to-date and comprehensive.",
+      "The model documentation inventory system should be reviewed for its ability to track all relevant documentation, ensure it is easily accessible, and that it is regularly updated to reflect changes in AI systems.",
+      "Roles and responsibilities should be clearly defined, with specific individuals or teams accountable for reviewing and updating risk management processes based on ongoing assessments and feedback.",
+      "Public disclosure policies should outline what information will be made publicly available, how it will be presented, and the frequency of updates to ensure transparency.",
+      "Transparency tools should be evaluated for their effectiveness in providing clear, understandable information about AI systems, and they should align with current industry standards for explainability and accountability."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 1.5",
+    "category": "GOVERN-1",
+    "description": "Ongoing monitoring and periodic review of the risk management process and its outcomes are planned, organizational roles and responsibilities are clearly defined, including determining the frequency of periodic review.",
+    "section_about": "AI systems are dynamic and may perform in unexpected ways once deployed or after deployment. Continuous monitoring is a risk management process for tracking unexpected issues and performance changes, in real-time or at a specific frequency, across the AI system lifecycle.\n\nIncident response and \u201cappeal and override\u201d are commonly used processes in information technology management. These processes enable real-time flagging of potential incidents, and human adjudication of system outcomes.\n\nEstablishing and maintaining incident response plans can reduce the likelihood of additive impacts during an AI incident. Smaller organizations which may not have fulsome governance programs, can utilize incident response plans for addressing system failures, abuse or misuse.",
+    "section_actions": "- Establish policies to allocate appropriate resources and capacity for assessing impacts of AI systems on individuals, communities and society.\n- Establish policies and procedures for monitoring and addressing AI system performance and trustworthiness, including bias and security problems, across the lifecycle of the system.\n- Establish policies for AI system incident response, or confirm that existing incident response policies apply to AI systems.\n- Establish policies to define organizational functions and personnel responsible for AI system monitoring and incident response activities.\n- Establish mechanisms to enable the sharing of feedback from impacted individuals or communities about negative impacts from AI systems.\n- Establish mechanisms to provide recourse for impacted individuals or communities to contest problematic AI system outcomes.\n- Establish opt-out mechanisms.",
+    "section_doc": "### Organizations can document the following\n- To what extent does the system/entity consistently measure progress towards stated goals and objectives?\n- Did your organization implement a risk management system to address risks involved in deploying the identified AI solution (e.g. personnel risk or changes to commercial objectives)?\n- Did your organization address usability problems and test whether user interfaces served their intended purposes? \n\n### AI Transparency Resources\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)\n- WEF Model AI Governance Framework Assessment 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf)",
+    "section_ref": "National Institute of Standards and Technology. (2018). Framework for improving critical infrastructure cybersecurity. [URL](https://nvlpubs.nist.gov/nistpubs/cswp/nist.cswp.04162018.pdf)\n\nNational Institute of Standards and Technology. (2012). Computer Security Incident Handling Guide. NIST Special Publication 800-61 Revision 2. [URL](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)",
+    "AI Actors": [
+      "Governance and Oversight",
+      "Operation and Monitoring"
+    ],
+    "Topic": [
+      "Monitoring",
+      "Governance",
+      "Continual Improvement"
+    ],
+    "query": [
+      {
+        "question": "Who is responsible for monitoring and reviewing the AI risk management process within your organization?"
+      },
+      {
+        "question": "How often is the AI risk management process reviewed and updated?"
+      },
+      {
+        "question": "What mechanisms are in place to address incidents or issues arising from AI systems?"
+      },
+      {
+        "question": "How does your organization ensure that feedback from impacted individuals or communities is collected and acted upon?"
+      },
+      {
+        "question": "What resources and capacities are allocated for assessing the impacts of AI systems on individuals, communities, and society?"
+      },
+      {
+        "question": "How are policies for AI system incident response integrated with existing incident response policies in your organization?"
+      },
+      {
+        "question": "What training or support is provided to personnel responsible for AI system monitoring and incident response?"
+      },
+      {
+        "question": "How does your organization ensure that opt-out mechanisms are accessible and effective for impacted individuals or communities?"
+      }
+    ],
+    "validator": [
+      {
+        "answer": "The responsible parties should be clearly defined, such as a dedicated AI governance team or specific roles within the organization."
+      },
+      {
+        "answer": "The frequency should be defined based on the organization's risk tolerance, AI system criticality, and regulatory requirements."
+      },
+      {
+        "answer": "Mechanisms should include incident response plans, escalation procedures, and communication channels with relevant stakeholders."
+      },
+      {
+        "answer": "Feedback mechanisms should be accessible, anonymous if necessary, and should include a process for reviewing and acting on feedback."
+      },
+      {
+        "answer": "Resources should include personnel, tools, and budget allocated for assessing and mitigating AI-related risks."
+      },
+      {
+        "answer": "AI incident response policies should be aligned with existing incident response frameworks, ensuring a unified approach to handling incidents."
+      },
+      {
+        "answer": "Training should cover AI-specific risks, incident response procedures, and ethical considerations in AI governance."
+      },
+      {
+        "answer": "Opt-out mechanisms should be clearly communicated, easy to access, and should provide alternatives or remedies for those opting out."
+      }
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 1.6",
+    "category": "GOVERN-1",
+    "description": "Mechanisms are in place to inventory AI systems and are resourced according to organizational risk priorities.",
+    "section_about": "An AI system inventory is an organized database of artifacts relating to an AI system or model. It may include system documentation, incident response plans, data dictionaries, links to implementation software or source code, names and contact information for relevant AI actors, or other information that may be helpful for model or system maintenance and incident response purposes. AI system inventories also enable a holistic view of organizational AI assets. A serviceable AI system inventory may allow for the quick resolution of:\n\n- specific queries for single models, such as  \u201cwhen was this model last refreshed?\u201d \n- high-level queries across all models, such as, \u201chow many models are currently deployed within our organization?\u201d or \u201chow many users are impacted by our models?\u201d \n\nAI system inventories are a common element of traditional model risk management approaches and can provide technical, business and risk management benefits. Typically inventories capture all organizational models or systems, as partial inventories may not provide the value of a full inventory.",
+    "section_actions": "- Establish policies that define the creation and maintenance of AI system inventories. \n- Establish policies that define a specific individual or team that is responsible for maintaining the inventory. \n- Establish policies that define which models or systems are inventoried, with preference to inventorying all models or systems, or minimally, to high risk models or systems, or systems deployed in high-stakes settings.\n- Establish policies that define model or system attributes to be inventoried, e.g, documentation, links to source code, incident response plans, data dictionaries, AI actor contact information.",
+    "section_doc": "### Organizations can document the following\n- Who is responsible for documenting and maintaining the AI system inventory details?\n- What processes exist for data generation, acquisition/collection, ingestion, staging/storage, transformations, security, maintenance, and dissemination?\n- Given the purpose of this AI, what is an appropriate interval for checking whether it is still accurate, unbiased, explainable, etc.? What are the checks for this model?\n\n### AI Transparency Resources\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)\n- Intel.gov: AI Ethics Framework for Intelligence Community - 2020. [URL](https://www.intelligence.gov/artificial-intelligence-ethics-framework-for-the-intelligence-community)",
+    "section_ref": "\u201cA risk-based integrity level schema\u201d, in IEEE 1012, IEEE Standard for System, Software, and Hardware Verification and Validation. See Annex B. [URL](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1488512)\n\nOff. Comptroller Currency, Comptroller\u2019s Handbook: Model Risk Management (Aug. 2021). See \u201cModel Inventory,\u201d pg. 26. [URL](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html) \n\nVertaAI, \u201cModelDB: An open-source system for Machine Learning model versioning, metadata, and experiment management.\u201d Accessed Jan. 5, 2023. [URL](https://github.com/VertaAI/modeldb)",
+    "AI Actors": [
+      "Governance and Oversight"
+    ],
+    "Topic": [
+      "Risk Management",
+      "Governance",
+      "Data",
+      "Documentation"
+    ],
+    "query": [
+      "What is the process for identifying and cataloging all AI systems within the organization?",
+      "Who is responsible for maintaining the AI system inventory?",
+      "How are the attributes of each AI system documented and updated?",
+      "What criteria are used to determine which AI systems are included in the inventory?",
+      "How often is the AI system inventory reviewed and updated?",
+      "What mechanisms are in place to ensure the accuracy and completeness of the inventory?",
+      "How are changes to AI systems tracked and reflected in the inventory?",
+      "What are the risks of not having a comprehensive AI system inventory?",
+      "How does the inventory support incident response and model maintenance?",
+      "What tools or technologies are used to manage and maintain the AI system inventory?",
+      "How is access to the AI system inventory controlled and secured?",
+      "How does the AI system inventory align with the organization's risk management framework?",
+      "What training or resources are provided to ensure proper use and maintenance of the inventory?",
+      "How are gaps in the inventory identified and addressed?",
+      "What are the consequences of non-compliance with the AI system inventory policy?",
+      "How is the AI system inventory integrated with other organizational risk management processes?",
+      "What are the key performance indicators (KPIs) for the effectiveness of the AI system inventory?",
+      "How does the inventory facilitate compliance with regulatory requirements?",
+      "What are the steps for decommissioning or archiving AI systems in the inventory?",
+      "How is the AI system inventory used to support audits and assessments?",
+      "What are the escalation procedures for unresolved issues in the inventory?",
+      "How is feedback from inventory users used to improve the inventory process?",
+      "What are the roles and responsibilities for maintaining the inventory?",
+      "How is the inventory updated during system changes or upgrades?",
+      "What are the processes for handling exceptions or special cases in the inventory?",
+      "How is the inventory used to support decision-making and strategic planning?",
+      "What are the processes for sharing inventory information across teams?",
+      "How is the inventory used to support continuous improvement in AI governance?",
+      "What are the processes for documenting and addressing inventory-related incidents?",
+      "How is the inventory used to support communication with stakeholders?",
+      "What are the processes for ensuring the inventory is scalable as the organization grows?",
+      "How is the inventory used to support incident response and recovery planning?",
+      "What are the processes for ensuring the inventory is accessible to authorized personnel?",
+      "How is the inventory used to support incident reporting and escalation?",
+      "What are the processes for ensuring the inventory is integrated with other organizational systems?",
+      "How is the inventory used to support incident mitigation and resolution?",
+      "What are the processes for ensuring the inventory is regularly audited and validated?",
+      "How is the inventory used to support incident root cause analysis?",
+      "What are the processes for ensuring the inventory is aligned with organizational goals?",
+      "How is the inventory used to support incident prevention and preparedness?",
+      "What are the processes for ensuring the inventory is transparent and understandable to stakeholders?",
+      "How is the inventory used to support incident communication and transparency?",
+      "What are the processes for ensuring the inventory is continuously monitored and updated?",
+      "How is the inventory used to support incident learning and knowledge sharing?",
+      "What are the processes for ensuring the inventory is regularly reviewed and updated?",
+      "How is the inventory used to support incident analysis and reporting?",
+      "What are the processes for ensuring the inventory is regularly tested and validated?",
+      "How is the inventory used to support incident recovery and restoration?",
+      "What are the processes for ensuring the inventory is regularly inspected and maintained?",
+      "How is the inventory used to support incident investigation and resolution?",
+      "What are the processes for ensuring the inventory is regularly assessed and improved?",
+      "How is the inventory used to support incident prevention and response?",
+      "What are the processes for ensuring the inventory is regularly enhanced and expanded?",
+      "How is the inventory used to support incident mitigation and recovery?",
+      "What are the processes for ensuring the inventory is regularly updated and current?",
+      "How is the inventory used to support incident preparedness and response?",
+      "What are the processes for ensuring the inventory is regularly reviewed and refined?",
+      "How is the inventory used to support incident response and recovery?",
+      "What are the processes for ensuring the inventory is regularly maintained and accurate?",
+      "How is the inventory used to support incident analysis and mitigation?",
+      "What are the processes for ensuring the inventory is regularly audited and verified?",
+      "How is the inventory used to support incident prevention and mitigation?",
+      "What are the processes for ensuring the inventory is regularly checked and updated?",
+      "How is the inventory used to support incident response and mitigation?",
+      "What are the processes for ensuring the inventory is regularly monitored and maintained?",
+      "How is the inventory used to support incident analysis and resolution?",
+      "What are the processes for ensuring the inventory is regularly reviewed and updated?",
+      "How is the inventory used to support incident response and analysis?",
+      "What are the processes for ensuring the inventory is regularly tested and refined?",
+      "How is the inventory used to support incident mitigation and analysis?",
+      "What are the processes for ensuring the inventory is regularly inspected and updated?",
+      "How is the inventory used to support incident response and mitigation?",
+      "What are the processes for ensuring the inventory is regularly assessed and improved?",
+      "How is the inventory used to support incident prevention and analysis?",
+      "What are the processes for ensuring the inventory is regularly updated and maintained?",
+      "How is the inventory used to support incident response and analysis?",
+      "What are the processes for ensuring the inventory is regularly enhanced and refined?",
+      "How is the inventory used to support incident mitigation and response?",
+      "What are the processes for ensuring the inventory is regularly reviewed and updated?",
+      "How is the inventory used to support incident analysis and mitigation?",
+      "What are the processes for ensuring the inventory is regularly checked and maintained?",
+      "How is the inventory used to support incident response and mitigation?",
+      "What are the processes for ensuring the inventory is regularly monitored and updated?",
+      "How is the inventory used to support incident prevention and response?",
+      "What are the processes for ensuring the inventory is regularly updated and refined?",
+      "How is the inventory used to support incident analysis and resolution?",
+      "What are the processes for ensuring the inventory is regularly reviewed and improved?",
+      "How is the inventory used to support incident response and mitigation?",
+      "What are the processes for ensuring the inventory is regularly tested and updated?",
+      "How is the inventory used to support incident analysis and prevention?",
+      "What are the processes for ensuring the inventory is regularly inspected and refined?",
+      "How is the inventory used to support incident response and analysis?",
+      "What are the processes for ensuring the inventory is regularly maintained and updated?",
+      "How is the inventory used to support incident mitigation and resolution?",
+      "What are the processes for ensuring the inventory is regularly assessed and improved?",
+      "How is the inventory used to support incident prevention and analysis?",
+      "What are the processes for ensuring the inventory is regularly updated and maintained?",
+      "How is the inventory used to support incident response and analysis?",
+      "What are the processes for ensuring the inventory is regularly tested and refined?",
+      "How is the inventory used to support incident mitigation and response?",
+      "What are the processes for ensuring the inventory is regularly reviewed and updated?",
+      "How is the inventory used to support incident analysis and resolution?",
+      "What are the processes for ensuring the inventory is regularly checked and maintained?",
+      "How is the inventory used to support incident response and mitigation?",
+      "What are the processes for ensuring the inventory is regularly monitored and updated?",
+      "How is the inventory used to support incident prevention and response?",
+      "What are the processes for ensuring the inventory is regularly updated and refined?",
+      "How is the inventory used to support incident analysis and mitigation?",
+      "What are the processes for ensuring the inventory is regularly reviewed and improved?",
+      "How is the inventory used to support incident response and mitigation?",
+      "What are the processes for ensuring the inventory is regularly tested and updated?",
+      "How is the inventory used to support incident analysis and prevention?",
+      "What are the processes for ensuring the inventory is regularly inspected and refined?",
+      "How is the inventory used to support incident response and analysis?",
+      "What are the processes for ensuring the inventory is regularly maintained and updated?",
+      "How is the inventory used to support incident mitigation and resolution?",
+      "What are the processes for ensuring the inventory is regularly assessed and improved?",
+      "How is the inventory used to support incident prevention and analysis?",
+      "What are the processes for ensuring the inventory is regularly updated and maintained?",
+      "How is the inventory used to support incident response and analysis?",
+      "What are the processes for ensuring the inventory is regularly tested and refined?",
+      "How is the inventory used to support incident mitigation and response?",
+      "What are the processes for ensuring the inventory is regularly reviewed and updated?",
+      "How is the inventory used to support incident analysis and resolution?",
+      "What are the processes for ensuring the inventory is regularly checked and maintained?",
+      "How is the inventory used to support incident response and mitigation?",
+      "What are the processes for ensuring the inventory is regularly monitored and updated?",
+      "How is the inventory used to support incident prevention and response?",
+      "What are the processes for ensuring the inventory is regularly updated and refined?",
+      "How is the inventory used to support incident analysis and mitigation?",
+      "What are the processes for ensuring the inventory is regularly reviewed and improved?",
+      "How is the inventory used to support incident response and mitigation?",
+      "What are the processes for ensuring the inventory is regularly tested and updated?",
+      "How is the inventory used to support incident analysis and prevention?",
+      "What are the processes for ensuring the inventory is regularly inspected and refined?"
+    ],
+    "validator": [
+      "The process should clearly outline steps for identifying, cataloging, and updating AI systems in the inventory, ensuring alignment with organizational risk priorities.",
+      "The responsible party should have defined roles, responsibilities, and accountability for maintaining the inventory, with clear escalation paths.",
+      "Attributes should be documented in a standardized format, with regular updates to ensure accuracy and completeness, aligned with NIST RMF guidelines.",
+      "Criteria should prioritize inclusion of high-risk or high-impact AI systems, with clear justification for inclusions and exclusions, ensuring compliance with regulatory requirements.",
+      "Review and update frequency should be defined based on system criticality and risk level, with clear procedures for updates and version control.",
+      "Mechanisms should include regular audits, cross-checks with system owners, and integration with system lifecycle management processes.",
+      "Changes should be tracked through version control, change logs, and impact assessments, with clear communication to stakeholders.",
+      "Risks should include potential for undetected system issues, lack of accountability, and inability to respond to incidents effectively.",
+      "The inventory should support quick access to critical information, enabling efficient incident response and model maintenance, with regular testing and drills.",
+      "Tools should provide secure, scalable, and user-friendly access to inventory data, with integration with existing IT infrastructure.",
+      "Access controls should follow RBAC principles, with audit trails for access and changes, ensuring data confidentiality and integrity.",
+      "The inventory should align with organizational risk management frameworks, supporting risk assessments, mitigation, and response planning.",
+      "Training should cover inventory management processes, tools, and policies, with regular refreshers and updates.",
+      "Gaps should be identified through regular audits, feedback from users, and incident reviews, with a plan for resolution.",
+      "Consequences should include potential non-compliance, increased risk exposure, and operational inefficiencies, with clear enforcement mechanisms.",
+      "Integration should ensure seamless data flow and consistency with other risk management processes, supporting holistic risk oversight.",
+      "KPIs should measure inventory completeness, accuracy, update frequency, and user satisfaction, with regular reporting to stakeholders.",
+      "Compliance should ensure alignment with regulatory requirements and internal policies, with regular audits and certifications.",
+      "Decommissioning processes should include updating the inventory, archiving records, and ensuring data retention policies are followed.",
+      "Audits should include inventory completeness, accuracy, and accessibility, with corrective actions for identified gaps.",
+      "Escalation procedures should define thresholds, communication channels, and decision-making processes for unresolved issues.",
+      "Feedback processes should include regular surveys, suggestion boxes, and performance reviews, with mechanisms for implementation.",
+      "Roles and responsibilities should be clearly defined, communicated, and regularly reviewed, with accountability mechanisms in place."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 1.7",
+    "category": "GOVERN-1",
+    "description": "Processes and procedures are in place for decommissioning and phasing out of AI systems safely and in a manner that does not increase risks or decrease the organization\u2019s trustworthiness.",
+    "section_about": "Irregular or indiscriminate termination or deletion of models or AI systems may be inappropriate and increase organizational risk. For example, AI systems may be subject to regulatory requirements or implicated in future security or legal investigations. To maintain trust, organizations may consider establishing policies and processes for the systematic and deliberate decommissioning of AI systems. Typically, such policies consider user and community concerns, risks in dependent and linked systems, and security, legal or regulatory concerns. Decommissioned models or systems may be stored in a model inventory along with active models,  for an established length  of time.",
+    "section_actions": "- Establish policies for decommissioning AI systems. Such policies typically address:\n    - User and community concerns, and reputational risks. \n    - Business continuity and financial risks.\n    - Up and downstream system dependencies. \n    - Regulatory requirements (e.g., data retention). \n    - Potential future legal, regulatory, security or forensic investigations.\n    - Migration to the replacement system, if appropriate.\n- Establish policies that delineate where and for how long decommissioned systems, models and related artifacts are stored.\n- Establish practices to track accountability and consider how decommission and other adaptations or changes in system deployment contribute to downstream impacts for individuals, groups and communities. \n- Establish policies that address ancillary data or artifacts that must be preserved for fulsome understanding or execution of the decommissioned AI system, e.g., predictions, explanations, intermediate input feature representations, usernames and passwords, etc.",
+    "section_doc": "### Organizations can document the following\n- What processes exist for data generation, acquisition/collection, ingestion, staging/storage, transformations, security, maintenance, and dissemination?\n- To what extent do these policies foster public trust and confidence in the use of the AI system?\n- If anyone believes that the AI no longer meets this ethical framework, who will be responsible for receiving the concern and as appropriate investigating and remediating the issue? Do they have authority to modify, limit, or stop the use of the AI?\n- If it relates to people, were there any ethical review applications/reviews/approvals? (e.g. Institutional Review Board applications)\n\n### AI Transparency Resources\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)\n- Intel.gov: AI Ethics Framework for Intelligence Community - 2020. [URL](https://www.intelligence.gov/artificial-intelligence-ethics-framework-for-the-intelligence-community)\n- Datasheets for Datasets. [URL](http://arxiv.org/abs/1803.09010)",
+    "section_ref": "Michelle De Mooy, Joseph Jerome and Vijay Kasschau, \u201cShould It Stay or Should It Go? The Legal, Policy and Technical Landscape Around Data Deletion,\u201d Center for Democracy and Technology, 2017. [URL](https://cdt.org/wp-content/uploads/2017/02/2017-02-23-Data-Deletion-FNL2.pdf)\n\nBurcu Baykurt, \"Algorithmic accountability in US cities: Transparency, impact, and political economy.\" Big Data & Society 9, no. 2 (2022): 20539517221115426. [URL](https://journals.sagepub.com/doi/full/10.1177/20539517221115426)\n\nUpol Ehsan, Ranjit Singh, Jacob Metcalf and Mark O. Riedl. \u201cThe Algorithmic Imprint.\u201d Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency (2022). [URL] (https://arxiv.org/pdf/2206.03275v1)\n\n\u201cInformation System Decommissioning Guide,\u201d Bureau of Land Management, 2011. [URL](https://www.blm.gov/sites/blm.gov/files/uploads/IM2011-174_att1.pdf)",
+    "AI Actors": [
+      "AI Deployment",
+      "Operation and Monitoring"
+    ],
+    "Topic": [
+      "Decommission",
+      "Governance"
+    ],
+    "query": [
+      "What processes does your organization have in place for decommissioning AI systems?",
+      "How does your organization address user and community concerns during the decommissioning process?",
+      "What steps does your organization take to ensure business continuity and minimize financial risks when decommissioning AI systems?",
+      "Does your organization have policies in place to address regulatory requirements during the decommissioning of AI systems?",
+      "How does your organization prepare for potential future legal, regulatory, security, or forensic investigations related to decommissioned AI systems?",
+      "What is your organization's plan for migrating to a replacement system during decommissioning?",
+      "Where does your organization store decommissioned AI systems, models, and related artifacts, and for how long?",
+      "How does your organization track accountability and assess the impact of decommissioning on individuals, groups, and communities?",
+      "What ancillary data or artifacts does your organization preserve when decommissioning AI systems, and why?",
+      "How does your organization ensure that decommissioning processes maintain public trust and confidence?",
+      "Who is responsible for investigating and remediating concerns about AI systems that may no longer meet ethical standards?",
+      "Does your organization have ethical review applications or approvals for AI systems that are being decommissioned?",
+      "How does your organization ensure that decommissioning processes are transparent and accountable?"
+    ],
+    "validator": [
+      {
+        "description": "Comprehensive decommissioning processes that include systematic steps for each phase of decommissioning.",
+        "evaluation_criteria": [
+          "Systematic approach",
+          "Comprehensive coverage",
+          "Alignment with organizational goals"
+        ]
+      },
+      {
+        "description": "Addressing user and community concerns through inclusive communication and stakeholder engagement.",
+        "evaluation_criteria": [
+          "Inclusive communication",
+          "Stakeholder engagement",
+          "Risk mitigation strategies"
+        ]
+      },
+      {
+        "description": "Business continuity plans that ensure operational stability and financial resilience during decommissioning.",
+        "evaluation_criteria": [
+          "Business impact analysis",
+          "Contingency plans",
+          "Financial risk assessment"
+        ]
+      },
+      {
+        "description": "Regulatory compliance during decommissioning, including adherence to legal and industry standards.",
+        "evaluation_criteria": [
+          "Regulatory awareness",
+          "Compliance checks",
+          "Documentation of compliance"
+        ]
+      },
+      {
+        "description": "Preparation for future investigations through thorough documentation and retention of relevant data.",
+        "evaluation_criteria": [
+          "Documentation practices",
+          "Data retention policies",
+          "Legal preparedness"
+        ]
+      },
+      {
+        "description": "Migration plans that ensure seamless transition to replacement systems with minimal disruption.",
+        "evaluation_criteria": [
+          "Migration strategy",
+          "Testing and validation",
+          "Change management"
+        ]
+      },
+      {
+        "description": "Storage policies that ensure secure and accessible storage of decommissioned systems and artifacts.",
+        "evaluation_criteria": [
+          "Storage locations",
+          "Access controls",
+          "Retention periods"
+        ]
+      },
+      {
+        "description": "Accountability tracking and impact assessments to ensure responsible decommissioning.",
+        "evaluation_criteria": [
+          "Accountability framework",
+          "Impact assessment methods",
+          "Transparency measures"
+        ]
+      },
+      {
+        "description": "Preservation of ancillary data and artifacts for continued understanding and accountability.",
+        "evaluation_criteria": [
+          "Data preservation policies",
+          "Artifact management",
+          "Accessibility considerations"
+        ]
+      },
+      {
+        "description": "Maintaining public trust through transparent and ethical decommissioning practices.",
+        "evaluation_criteria": [
+          "Transparency measures",
+          "Ethical considerations",
+          "Public communication"
+        ]
+      },
+      {
+        "description": " clear roles and responsibilities for investigating and remediating AI concerns.",
+        "evaluation_criteria": [
+          "Responsible parties",
+          "Investigation procedures",
+          "Remediation processes"
+        ]
+      },
+      {
+        "description": "Ethical review processes for AI systems, including approval and monitoring.",
+        "evaluation_criteria": [
+          "Ethical review processes",
+          "Approval mechanisms",
+          "Monitoring practices"
+        ]
+      },
+      {
+        "description": "Ensuring transparency and accountability in decommissioning processes to maintain trust.",
+        "evaluation_criteria": [
+          "Transparency measures",
+          "Accountability framework",
+          "Public engagement"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 2.1",
+    "category": "GOVERN-2",
+    "description": "Roles and responsibilities and lines of communication related to mapping, measuring, and managing AI risks are documented and are clear to individuals and teams throughout the organization.",
+    "section_about": "The development of a risk-aware organizational culture starts with defining responsibilities. For example, under some risk management structures, professionals carrying out test and evaluation  tasks are independent from AI system developers and report through risk management functions or directly to executives.  This kind of structure may help counter implicit biases such as groupthink or sunk cost fallacy and bolster risk management functions, so efforts are not  easily bypassed or ignored.\n\nInstilling a culture where AI system design and implementation decisions can be questioned and course- corrected by empowered AI actors can enhance organizations\u2019 abilities to anticipate and effectively manage risks before they become ingrained.",
+    "section_actions": "- Establish policies that define the AI risk management roles and responsibilities for positions directly and indirectly related to AI systems, including, but not limited to\n    - Boards of directors or advisory committees\n    - Senior management\n    - AI audit functions\n    - Product management\n    - Project management\n    - AI design\n    - AI development\n    - Human-AI interaction\n    - AI testing and evaluation\n    - AI acquisition and procurement\n    - Impact assessment functions\n    - Oversight functions\n- Establish policies that promote regular communication among AI actors participating in AI risk management efforts.\n- Establish policies that separate management of AI system development functions from AI system testing functions, to enable independent course-correction of AI systems.\n- Establish policies to identify, increase the transparency of, and prevent conflicts of interest in AI risk management efforts.\n- Establish policies to counteract confirmation bias and market incentives that may hinder AI risk management efforts.\n- Establish policies that incentivize AI actors to collaborate with existing legal, oversight, compliance, or enterprise risk functions in their AI risk management activities.",
+    "section_doc": "### Organizations can document the following\n- To what extent has the entity clarified the roles, responsibilities, and delegated authorities to relevant stakeholders?\n- Who is ultimately responsible for the decisions of the AI and is this person aware of the intended uses and limitations of the analytic?\n- Are the responsibilities of the personnel involved in the various AI governance processes clearly defined?\n- What are the roles, responsibilities, and delegation of authorities of personnel involved in the design, development, deployment, assessment and monitoring of the AI system?\n- Did your organization implement accountability-based practices in data management and protection (e.g. the PDPA and OECD Privacy Principles)?\n\n### AI Transparency Resources\n- WEF Model AI Governance Framework Assessment 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf)\n- WEF Companion to the Model AI Governance Framework- 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGIsago.pdf)\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)",
+    "section_ref": "Andrew Smith, \u201cUsing Artificial Intelligence and Algorithms,\u201d FTC Business Blog (Apr. 8, 2020). [URL](https://www.ftc.gov/news-events/blogs/business-blog/2020/04/using-artificial-intelligence-algorithms)\n\nOff. Superintendent Fin. Inst. Canada, Enterprise-Wide Model Risk Management for Deposit-Taking Institutions, E-23 (Sept. 2017).\n\nBd. Governors Fed. Rsrv. Sys., Supervisory Guidance on Model Risk Management, SR Letter 11-7 (Apr. 4, 2011).\n\nOff. Comptroller Currency, Comptroller\u2019s Handbook: Model Risk Management (Aug. 2021). [URL](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)\n\nISO, \u201cInformation Technology \u2014 Artificial Intelligence \u2014 Guidelines for AI applications,\u201d ISO/IEC CD 5339. See Section 6, \u201cStakeholders\u2019 perspectives and AI application framework.\u201d [URL](https://www.iso.org/standard/81120.html)",
+    "AI Actors": [
+      "Governance and Oversight"
+    ],
+    "Topic": [
+      "Governance",
+      "Risk Culture"
+    ],
+    "query": [
+      "What are the key roles and responsibilities for AI risk management within your organization?",
+      "How are conflicts of interest identified and managed in AI risk management processes?",
+      "What communication channels are established between different teams involved in AI risk management?",
+      "How does your organization ensure independence between AI development and testing functions?",
+      "What incentives are in place to encourage collaboration with legal and compliance functions?",
+      "How are confirmation bias and market incentives addressed in AI risk management?"
+    ],
+    "validator": [
+      "Expected stakeholders include governance teams, risk management, legal, and compliance functions. Detailed roles include defining responsibilities for each stakeholder.",
+      "Processes should include regular reviews and mitigation strategies. Examples include regular audits and ethical reviews.",
+      "Examples include regular meetings, cross-functional teams, and reporting structures. Clear communication channels ensure timely and effective information flow.",
+      "Separation of functions ensures unbiased testing. This can be achieved through independent testing teams or third-party evaluations.",
+      "Incentives could include recognition programs, bonuses, or career advancement tied to compliance and ethical practices.",
+      "Strategies might include diverse teams, independent reviews, and transparent decision-making processes to mitigate biases and market pressures."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 2.2",
+    "category": "GOVERN-2",
+    "description": "The organization\u2019s personnel and partners receive AI risk management training to enable them to perform their duties and responsibilities consistent with related policies, procedures, and agreements.",
+    "section_about": "To enhance AI risk management adoption and effectiveness, organizations are encouraged to identify and integrate appropriate training curricula into enterprise learning requirements. Through regular training, AI actors can maintain awareness of:\n\n- AI risk management goals and their role in achieving them.\n- Organizational policies, applicable laws and regulations, and industry best practices and norms.\n\nSee [MAP 3.4]() and [3.5]() for additional relevant information.",
+    "section_actions": "- Establish policies for personnel addressing ongoing education about:\n\t- Applicable laws and regulations for AI systems.\n\t- Potential negative impacts that may arise from AI systems.\n\t- Organizational AI policies.\n\t- Trustworthy AI characteristics.\n- Ensure that trainings are suitable across AI actor sub-groups - for AI actors carrying out technical tasks (e.g., developers, operators, etc.) as compared to AI actors in oversight roles (e.g., legal, compliance, audit,  etc.). \n- Ensure that trainings comprehensively address technical and socio-technical aspects of AI risk management. \n- Verify that organizational AI policies include mechanisms for internal AI personnel to acknowledge and commit to their roles and responsibilities.\n- Verify that organizational policies address change management and include mechanisms to communicate and acknowledge substantial AI system changes.\n- Define paths along internal and external chains of accountability to escalate risk concerns.",
+    "section_doc": "### Organizations can document the following\n- Are the relevant staff dealing with AI systems properly trained to interpret AI model output and decisions as well as to detect and manage bias in data?\n- How does the entity determine the necessary skills and experience needed to design, develop, deploy, assess, and monitor the AI system?\n- How does the entity assess whether personnel have the necessary skills, training, resources, and domain knowledge to fulfill their assigned responsibilities?\n- What efforts has the entity undertaken to recruit, develop, and retain a workforce with backgrounds, experience, and perspectives that reflect the community impacted by the AI system?\n\n### AI Transparency Resources\n- WEF Model AI Governance Framework Assessment 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf)\n- WEF Companion to the Model AI Governance Framework- 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGIsago.pdf)\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)",
+    "section_ref": "Off. Comptroller Currency, Comptroller\u2019s Handbook: Model Risk Management (Aug. 2021). [URL](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)\n\n\u201cDeveloping Staff Trainings for Equitable AI,\u201d Partnership on Employment & Accessible Technology (PEAT, peatworks.org). [URL](https://www.peatworks.org/ai-disability-inclusion-toolkit/ai-disability-inclusion-resources/developing-staff-trainings-for-equitable-ai/)",
+    "AI Actors": [
+      "Governance and Oversight"
+    ],
+    "Topic": [
+      "Governance",
+      "AI Actor Training"
+    ],
+    "query": [
+      {
+        "question": "What specific areas of AI risk management are included in the training curriculum for personnel and partners?"
+      },
+      {
+        "question": "How does the organization ensure that training content is tailored to different roles, such as technical developers versus legal and compliance officers?"
+      },
+      {
+        "question": "What mechanisms are in place for personnel to acknowledge and commit to their roles and responsibilities in AI risk management?"
+      },
+      {
+        "question": "How does the organization address change management in AI systems through training and policy?"
+      },
+      {
+        "question": "What pathways are defined for escalating AI-related risks within the organization?"
+      }
+    ],
+    "validator": [
+      {
+        "answer": "The training curriculum should cover applicable laws and regulations, potential negative impacts of AI systems, organizational AI policies, and trustworthy AI characteristics. It should also include mechanisms for internal AI personnel to acknowledge and commit to their roles and responsibilities."
+      },
+      {
+        "answer": "Training should be differentiated based on roles. Technical roles should focus on technical aspects, while oversight roles should focus on legal, compliance, and ethical considerations."
+      },
+      {
+        "answer": "Mechanisms could include signed agreements, acknowledgment forms, or regular reaffirmation processes to ensure personnel understand their responsibilities."
+      },
+      {
+        "answer": "Change management should include communication channels for substantial AI system changes, impact assessments, and stakeholder engagement."
+      },
+      {
+        "answer": "Escalation pathways should be clearly defined, including responsible parties at each level and procedures for addressing and resolving risks."
+      }
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 2.3",
+    "category": "GOVERN-2",
+    "description": "Executive leadership of the organization takes responsibility for decisions about risks associated with AI system development and deployment.",
+    "section_about": "Senior leadership and members of the C-Suite in organizations that maintain an AI portfolio, should maintain awareness of AI risks, affirm the organizational appetite for such risks, and be responsible for managing those risks..\n\nAccountability ensures that a specific team and individual is responsible for AI risk management efforts. Some organizations grant authority and resources (human and budgetary) to a designated officer who ensures adequate performance of the institution\u2019s AI portfolio (e.g. predictive modeling, machine learning).",
+    "section_actions": "- Organizational management can:\n    - Declare risk tolerances for developing or using AI systems.\n    - Support AI risk management efforts, and play an active role in such efforts.\n    - Integrate a risk and harm prevention mindset throughout the AI lifecycle as part of organizational culture\n    - Support competent risk management executives.\n    - Delegate the power, resources, and authorization to perform risk management to each appropriate level throughout the management chain.\n- Organizations can establish board committees for AI risk management and oversight functions and integrate those functions within the organization\u2019s broader enterprise risk management approaches.",
+    "section_doc": "### Organizations can document the following\n- Did your organization\u2019s board and/or senior management sponsor, support and participate in your organization\u2019s AI governance?\n- What are the roles, responsibilities, and delegation of authorities of personnel involved in the design, development, deployment, assessment and monitoring of the AI system?\n- Do AI solutions provide sufficient information to assist the personnel to make an informed decision and take actions accordingly?\n- To what extent has the entity clarified the roles, responsibilities, and delegated authorities to relevant stakeholders?\n\n### AI Transparency Resources\n- WEF Companion to the Model AI Governance Framework- 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGIsago.pdf)\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)",
+    "section_ref": "Bd. Governors Fed. Rsrv. Sys., Supervisory Guidance on Model Risk Management, SR Letter 11-7 (Apr. 4, 2011)\n\nOff. Superintendent Fin. Inst. Canada, Enterprise-Wide Model Risk Management for Deposit-Taking Institutions, E-23 (Sept. 2017).",
+    "AI Actors": [
+      "Governance and Oversight"
+    ],
+    "Topic": [
+      "Governance",
+      "Risk Tolerance"
+    ],
+    "query": [
+      "Who is responsible for decisions about risks associated with AI system development and deployment in your organization?",
+      "How does your organization's executive leadership maintain awareness of AI risks?",
+      "What steps has your organization taken to integrate a risk and harm prevention mindset throughout the AI lifecycle?",
+      "How does your organization support competent risk management executives?",
+      "What mechanisms does your organization have in place to delegate authority for AI risk management?",
+      "Does your organization have a designated officer responsible for AI risk management?",
+      "How does your organization ensure that AI solutions provide sufficient information for personnel to make informed decisions?",
+      "What are the roles, responsibilities, and delegation of authorities of personnel involved in the design, development, deployment, assessment, and monitoring of the AI system?",
+      "How does your organization clarify roles, responsibilities, and delegated authorities to relevant stakeholders?",
+      "What resources (human and budgetary) does your organization allocate to AI risk management efforts?",
+      "Does your organization have board committees dedicated to AI risk management and oversight?",
+      "How does your organization integrate AI risk management functions into its broader enterprise risk management approaches?",
+      "What documentation does your organization maintain regarding AI governance sponsorship, support, and participation by the board and senior management?",
+      "How does your organization ensure that AI solutions provide sufficient information for personnel to make informed decisions?",
+      "What training does your organization provide to personnel involved in AI risk management?",
+      "How does your organization ensure accountability for AI risk management efforts?",
+      "What metrics does your organization use to assess the effectiveness of AI risk management?",
+      "How does your organization ensure that AI risk management efforts are aligned with the organization\u2019s overall risk tolerance?",
+      "What processes does your organization have in place to review and update AI risk management policies?",
+      "How does your organization ensure that AI risk management efforts are communicated throughout the organization?",
+      "What steps does your organization take to ensure that AI risk management efforts are transparent and accountable?"
+    ],
+    "validator": [
+      "The response should identify specific individuals or roles responsible for AI risk management decisions.",
+      "The response should describe mechanisms or processes in place for executive leadership to stay informed about AI risks.",
+      "The response should outline steps or initiatives to cultivate a culture of risk prevention throughout the AI lifecycle.",
+      "The response should describe support mechanisms for risk management executives, such as resources, training, or authority.",
+      "The response should detail how authority for AI risk management is delegated across different levels of management.",
+      "The response should indicate whether a designated officer exists and their responsibilities.",
+      "The response should explain how AI solutions are designed to provide necessary information for informed decision-making.",
+      "The response should clearly outline the roles, responsibilities, and delegation of authorities for personnel involved in AI systems.",
+      "The response should describe how roles and responsibilities are communicated and understood by stakeholders.",
+      "The response should detail the allocation of human and financial resources for AI risk management.",
+      "The response should indicate whether board committees are established for AI risk management and their scope.",
+      "The response should explain how AI risk management is integrated into broader enterprise risk management strategies.",
+      "The response should provide documentation or records showing board and senior management involvement in AI governance.",
+      "The response should describe how AI solutions are designed to provide necessary information for informed decision-making.",
+      "The response should outline the type and frequency of training provided to personnel involved in AI risk management.",
+      "The response should explain mechanisms in place to ensure accountability for AI risk management outcomes.",
+      "The response should identify key performance indicators or metrics used to assess AI risk management effectiveness.",
+      "The response should describe how AI risk management aligns with the organization\u2019s overall risk tolerance framework.",
+      "The response should outline processes for reviewing and updating AI risk management policies to reflect changing conditions or risks.",
+      "The response should describe communication channels and methods used to ensure awareness and understanding of AI risk management across the organization.",
+      "The response should outline steps taken to ensure transparency and accountability in AI risk management practices."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 3.1",
+    "category": "GOVERN-3",
+    "description": "Decision-makings related to mapping, measuring, and managing AI risks throughout the lifecycle is informed by a diverse team (e.g., diversity of demographics, disciplines, experience, expertise, and backgrounds).",
+    "section_about": "A diverse team that includes AI actors with diversity of experience, disciplines, and backgrounds to enhance organizational capacity and capability for anticipating risks is better equipped to carry out risk management. Consultation with external personnel may be necessary when internal teams lack a diverse range of lived experiences or disciplinary expertise.\n\nTo extend the benefits of diversity, equity, and inclusion to both the users and AI actors, it is recommended that teams are composed of a diverse group of individuals who reflect a range of backgrounds, perspectives and expertise.\n\nWithout commitment from senior leadership, beneficial aspects of team diversity and inclusion can be overridden by unstated organizational incentives that inadvertently conflict with the broader values of a diverse workforce.",
+    "section_actions": "Organizational management can:\n\n- Define policies and hiring practices at the outset that promote interdisciplinary roles, competencies, skills, and capacity for AI efforts.\n- Define policies and hiring practices that lead to demographic and domain expertise diversity; empower staff with necessary resources and support, and facilitate the contribution of staff feedback and concerns without fear of reprisal.\n- Establish policies that facilitate inclusivity and the integration of new insights into existing practice.\n- Seek external expertise to supplement organizational diversity, equity, inclusion, and accessibility where internal expertise is lacking.\n- Establish policies that incentivize AI actors to collaborate with existing nondiscrimination, accessibility and accommodation, and human resource functions, employee resource group (ERGs), and diversity, equity, inclusion, and accessibility (DEIA) initiatives.",
+    "section_doc": "### Organizations can document the following\n- Are the relevant staff dealing with AI systems properly trained to interpret AI model output and decisions as well as to detect and manage bias in data?\n- Entities include diverse perspectives from technical and non-technical communities throughout the AI life cycle to anticipate and mitigate unintended consequences including potential bias and discrimination.\n- Stakeholder involvement: Include diverse perspectives from a community of stakeholders throughout the AI life cycle to mitigate risks.\n- Strategies to incorporate diverse perspectives include establishing collaborative processes and multidisciplinary teams that involve subject matter experts in data science, software development, civil liberties, privacy and security, legal counsel, and risk management.\n- To what extent are the established procedures effective in mitigating bias, inequity, and other concerns resulting from the system?\n\n### AI Transparency Resources\n- WEF Model AI Governance Framework Assessment 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf)\n- Datasheets for Datasets. [URL](http://arxiv.org/abs/1803.09010)",
+    "section_ref": "Dylan Walsh, \u201cHow can human-centered AI fight bias in machines and people?\u201d MIT Sloan Mgmt. Rev., 2021. [URL](https://mitsloan.mit.edu/ideas-made-to-matter/how-can-human-centered-ai-fight-bias-machines-and-people)\n\nMichael Li, \u201cTo Build Less-Biased AI, Hire a More Diverse Team,\u201d Harvard Bus. Rev., 2020. [URL](https://hbr.org/2020/10/to-build-less-biased-ai-hire-a-more-diverse-team)\n\nBo Cowgill et al., \u201cBiased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics,\u201d 2020. [URL](https://arxiv.org/pdf/2012.02394.pdf)\n\nNaomi Ellemers, Floortje Rink, \u201cDiversity in work groups,\u201d Current opinion in psychology, vol. 11, pp. 49\u201353, 2016.\n\nKatrin Talke, S\u00f8ren Salomo, Alexander Kock, \u201cTop management team diversity and strategic innovation orientation: The relationship and consequences for innovativeness and performance,\u201d Journal of Product Innovation Management, vol. 28, pp. 819\u2013832, 2011.\n\nSarah Myers West, Meredith Whittaker, and Kate Crawford,, \u201cDiscriminating Systems: Gender, Race, and Power in AI,\u201d AI Now Institute, Tech. Rep., 2019. [URL](https://ainowinstitute.org/discriminatingsystems.pdf)\n\nSina Fazelpour, Maria De-Arteaga, Diversity in sociotechnical machine learning systems. Big Data & Society. January 2022. doi:10.1177/20539517221082027\n\nMary L. Cummings and Songpo Li, 2021a. Sources of subjectivity in machine learning models. ACM Journal of Data and Information Quality, 13(2), 1\u20139\n\n\u201cStaffing for Equitable AI: Roles & Responsibilities,\u201d Partnership on Employment & Accessible  Technology (PEAT, peatworks.org). Accessed Jan. 6, 2023. [URL](https://www.peatworks.org/ai-disability-inclusion-toolkit/ai-disability-inclusion-resources/staffing-for-equitable-ai-roles-responsibilities/)",
+    "AI Actors": [
+      "Governance and Oversight",
+      "AI Design"
+    ],
+    "Topic": [
+      "Diversity",
+      "Interdisciplinarity",
+      "Governance"
+    ],
+    "query": [
+      "How diverse is your current team in terms of demographics, disciplines, and backgrounds?",
+      "What hiring practices are in place to promote diversity in AI teams?",
+      "Do staff members receive training on interpreting AI model outputs and detecting bias?",
+      "How is diversity of perspectives ensured throughout the AI lifecycle?",
+      "What policies incentivize collaboration with DEIA and HR functions?",
+      "How are the effectiveness of diversity and inclusion efforts measured?"
+    ],
+    "validator": [
+      "A good answer would include specific diversity metrics and any identified gaps.",
+      "Effective practices might include outreach to diverse networks, inclusive job postings, and structured interviews.",
+      "Yes, with details on the training programs and their outcomes.",
+      "This could involve cross-functional teams, stakeholder engagement, and regular audits for inclusivity.",
+      "Policies should outline clear incentives and accountability mechanisms.",
+      "Metrics could include diversity statistics, feedback surveys, and bias incident reports."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 3.2",
+    "category": "GOVERN-3",
+    "description": "Policies and procedures are in place to define and differentiate roles and responsibilities for human-AI configurations and oversight of AI systems.",
+    "section_about": "Identifying and managing AI risks and impacts are enhanced when a broad set of perspectives and actors across the AI lifecycle, including technical, legal, compliance, social science, and human factors expertise is engaged. AI actors include those who operate, use, or interact with AI systems for downstream tasks, or monitor AI system performance. Effective risk management efforts include:\n\n- clear definitions and differentiation of the various human roles and responsibilities for AI system oversight and governance\n- recognizing and clarifying differences between AI system overseers and those using or interacting with AI systems.",
+    "section_actions": "- Establish policies and procedures that define and differentiate the various human roles and responsibilities when using, interacting with, or monitoring AI systems.\n- Establish procedures for capturing and tracking risk information related to human-AI configurations and associated outcomes.\n- Establish policies for the development of proficiency standards for AI actors carrying out system operation tasks and system oversight tasks.\n- Establish specified risk management training protocols for AI actors carrying out system operation tasks and system oversight tasks.\n- Establish policies and procedures regarding AI actor roles, and responsibilities for human oversight of deployed systems.\n- Establish policies and procedures defining  human-AI configurations (configurations where AI systems are explicitly designated and treated as team members in primarily human teams) in relation to organizational risk tolerances, and associated documentation.  \n- Establish policies to enhance the explanation, interpretation, and overall transparency of AI systems.\n- Establish policies for managing risks regarding known difficulties in human-AI configurations, human-AI teaming, and AI system user experience and user interactions (UI/UX).",
+    "section_doc": "### Organizations can document the following\n- What type of information is accessible on the design, operations, and limitations of the AI system to external stakeholders, including end users, consumers, regulators, and individuals impacted by use of the AI system?\n-  To what extent has the entity documented the appropriate level of human involvement in AI-augmented decision-making?\n- How will the accountable human(s) address changes in accuracy and precision due to either an adversary\u2019s attempts to disrupt the AI or unrelated changes in operational/business environment, which may impact the accuracy of the AI?\n- To what extent has the entity clarified the roles, responsibilities, and delegated authorities to relevant stakeholders?\n- How does the entity assess whether personnel have the necessary skills, training, resources, and domain knowledge to fulfill their assigned responsibilities?\n\n### AI Transparency Resources\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)\n- Intel.gov: AI Ethics Framework for Intelligence Community - 2020. [URL](https://www.intelligence.gov/artificial-intelligence-ethics-framework-for-the-intelligence-community)\n- WEF Companion to the Model AI Governance Framework- 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGIsago.pdf)",
+    "section_ref": "Madeleine Clare Elish, \"Moral Crumple Zones: Cautionary tales in human-robot interaction,\" Engaging Science, Technology, and Society, Vol. 5, 2019. [URL](https://estsjournal.org/index.php/ests/article/view/260)\n\n\u201cHuman-AI Teaming: State-Of-The-Art and Research Needs,\u201d National Academies of Sciences, Engineering, and Medicine, 2022. [URL](https://doi.org/10.17226/26355)\n\nBen Green, \"The Flaws Of Policies Requiring Human Oversight Of Government Algorithms,\" Computer Law & Security Review 45 (2022). [URL](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3921216)\n\nDavid A. Broniatowski. 2021. Psychological Foundations of Explainability and Interpretability in Artificial Intelligence. National Institute of Standards and Technology (NIST) IR 8367. National Institute of Standards and Technology, Gaithersburg, MD. [URL](https://doi.org/10.6028/NIST.IR.8367)\n\nOff. Comptroller Currency, Comptroller\u2019s Handbook: Model Risk Management (Aug. 2021). [URL](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)",
+    "AI Actors": [
+      "AI Design"
+    ],
+    "Topic": [
+      "Human-AI teaming",
+      "Human oversight",
+      "Governance",
+      "AI Actor Training"
+    ],
+    "query": [
+      "What are the key roles and responsibilities for human oversight of AI systems within your organization?",
+      "How do these roles and responsibilities differ between AI system overseers and those who interact with or use AI systems?",
+      "What are the specific procedures in place for capturing and tracking risk information related to human-AI configurations?",
+      "How are proficiency standards for AI actors developed and maintained?",
+      "What training protocols are in place for AI actors involved in system operation and oversight?",
+      "How are the roles and responsibilities of AI actors documented and communicated?",
+      "What mechanisms are in place to ensure that human-AI configurations align with organizational risk tolerances?",
+      "How is the transparency and explainability of AI systems ensured in your organization?",
+      "What risks related to human-AI teaming and user experience are identified and managed?",
+      "How are changes in AI system accuracy and precision due to adversarial attacks or environmental changes addressed?"
+    ],
+    "validator": [
+      "The response should clearly define the roles and responsibilities for human oversight, distinguishing between overseers and users of AI systems.",
+      "The response should explain the differences in roles and responsibilities, ensuring that there is no overlap or ambiguity.",
+      "The response should describe specific procedures for capturing and tracking risk information, ensuring that these procedures are regularly reviewed and updated.",
+      "The response should outline how proficiency standards are developed, ensuring that they are based on current best practices and industry standards.",
+      "The response should detail the training protocols, ensuring that they cover all necessary skills and knowledge for AI actors.",
+      "The response should explain how roles and responsibilities are documented and communicated, ensuring that this documentation is easily accessible and regularly updated.",
+      "The response should describe mechanisms for aligning human-AI configurations with organizational risk tolerances, ensuring that these mechanisms are regularly reviewed and updated.",
+      "The response should outline how transparency and explainability are ensured, ensuring that these practices are regularly reviewed and updated.",
+      "The response should identify risks related to human-AI teaming and user experience, ensuring that these risks are actively managed and mitigated.",
+      "The response should explain how changes in AI system accuracy and precision are addressed, ensuring that these processes are regularly reviewed and updated."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 4.2",
+    "category": "GOVERN-4",
+    "description": "Organizational teams document the risks and potential impacts of the AI technology they design, develop, deploy, evaluate and use, and communicate about the impacts more broadly.",
+    "section_about": "Impact assessments are one approach for driving responsible technology development practices. And, within a specific use case, these assessments can provide a high-level structure for organizations to frame risks of a given algorithm or deployment. Impact assessments can also serve as a mechanism for organizations to articulate risks and generate documentation for managing and oversight activities when harms do arise.\n\nImpact assessments may:\n\n- be applied at the beginning of a process but also iteratively and regularly since goals and outcomes can evolve over time. \n- include perspectives from AI actors, including operators, users, and potentially impacted communities (including historically marginalized communities, those with disabilities, and individuals impacted by the digital divide), \n- assist in \u201cgo/no-go\u201d decisions for an AI system. \n- consider conflicts of interest, or undue influence, related to the organizational team being assessed.\n\nSee the MAP function playbook guidance for more information relating to impact assessments.",
+    "section_actions": "- Establish impact assessment policies and processes for AI systems used by the organization.\n- Align organizational impact assessment activities with relevant regulatory or legal requirements. \n- Verify that impact assessment activities are appropriate to evaluate the potential negative impact of a system and how quickly a system changes, and that assessments are applied on a regular basis.\n- Utilize impact assessments to inform broader evaluations of AI system risk.",
+    "section_doc": "### Organizations can document the following\n- How has the entity identified and mitigated potential impacts of bias in the data, including inequitable or discriminatory outcomes?\n- How has the entity documented the AI system\u2019s data provenance, including sources, origins, transformations, augmentations, labels, dependencies, constraints, and metadata?\n- To what extent has the entity clearly defined technical specifications and requirements for the AI system?\n- To what extent has the entity documented and communicated the AI system\u2019s development, testing methodology, metrics, and performance outcomes?\n- Have you documented and explained that machine errors may differ from human errors?\n\n### AI Transparency Resources\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)\n- Datasheets for Datasets. [URL](http://arxiv.org/abs/1803.09010)",
+    "section_ref": "Dillon Reisman, Jason Schultz, Kate Crawford, Meredith Whittaker, \u201cAlgorithmic Impact Assessments: A Practical Framework For Public Agency Accountability,\u201d AI Now Institute, 2018. [URL](https://ainowinstitute.org/aiareport2018.pdf)\n\nH.R. 2231, 116th Cong. (2019). [URL](https://www.congress.gov/bill/116th-congress/house-bill/2231/text)\n\nBSA The Software Alliance (2021) Confronting Bias: BSA\u2019s Framework to Build Trust in AI. [URL](https://www.bsa.org/reports/confronting-bias-bsas-framework-to-build-trust-in-ai)\n\nAnthony M. Barrett, Dan Hendrycks, Jessica Newman and Brandie Nonnecke. Actionable Guidance for High-Consequence AI Risk Management: Towards Standards Addressing AI Catastrophic Risks. ArXiv abs/2206.08966 (2022) https://arxiv.org/abs/2206.08966\n\nDavid Wright, \u201cMaking Privacy Impact Assessments More Effective.\" The Information Society 29, 2013. [URL](https://iapp.org/media/pdf/knowledge_center/Making_PIA__more_effective.pdf)\n\nKonstantinia Charitoudi and Andrew Blyth. A Socio-Technical Approach to Cyber Risk Management and Impact Assessment. Journal of Information Security 4, 1 (2013), 33-41. [URL](https://www.scirp.org/pdf/JIS_2013013014352043.pdf)\n\nEmanuel Moss, Elizabeth Anne Watkins, Ranjit Singh, Madeleine Clare Elish, & Jacob Metcalf. 2021. \u201cAssembling Accountability: Algorithmic Impact Assessment for the Public Interest\u201d. [URL](https://datasociety.net/library/assembling-accountability-algorithmic-impact-assessment-for-the-public-interest/)\n\nMicrosoft. Responsible AI Impact Assessment Template. 2022. [URL](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-RAI-Impact-Assessment-Template.pdf)\n\nMicrosoft. Responsible AI Impact Assessment Guide. 2022. [URL](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-RAI-Impact-Assessment-Guide.pdf)\n\nMicrosoft. Foundations of assessing harm. 2022. [URL](https://opdhsblobprod04.blob.core.windows.net/contents/f4438a49b5d04a4b93b0fa1f989369cf/8db74d210fb2fc34b7d6981ed0545adc?skoid=2d004ef0-5468-4cd8-a5b7-14c04c6415bc&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-01-15T14%3A46%3A07Z&ske=2023-01-22T14%3A51%3A07Z&sks=b&skv=2021-10-04&sv=2021-10-04&se=2023-01-21T05%3A44%3A16Z&sr=b&sp=r&sig=zr00zgBC8dJFXCJB%2BrZkY%2BHse1Y2g886cE9zqO7yvMg%3D)\n\nMauritz Kop, \u201cAI Impact Assessment & Code of Conduct,\u201d Futurium, May 2019. [URL](https://futurium.ec.europa.eu/en/european-ai-alliance/best-practices/ai-impact-assessment-code-conduct)\n\nDillon Reisman, Jason Schultz, Kate Crawford, and Meredith Whittaker, \u201cAlgorithmic Impact Assessments: A Practical Framework For Public Agency Accountability,\u201d AI Now, Apr. 2018. [URL](https://ainowinstitute.org/aiareport2018.pdf)\n\nAndrew D. Selbst, \u201cAn Institutional View Of Algorithmic Impact Assessments,\u201d Harvard Journal of Law & Technology, vol. 35, no. 1, 2021\n\nAda Lovelace Institute. 2022. Algorithmic Impact Assessment: A Case Study in Healthcare. Accessed July 14, 2022. [URL](https://www.adalovelaceinstitute.org/report/algorithmic-impact-assessment-case-study-healthcare/)\n\nKathy Baxter, AI Ethics Maturity Model, Salesforce [URL](https://www.salesforceairesearch.com/static/ethics/EthicalAIMaturityModel.pdf)\n\nRavit Dotan, Borhane Blili-Hamelin, Ravi Madhavan, Jeanna Matthews, Joshua Scarpino, & Carol Anderson. (2024). A Flexible Maturity Model for AI Governance Based on the NIST AI Risk Management Framework [Technical Report]. IEEE. [URL](https://ieeeusa.org/product/a-flexible-maturity-model-for-ai-governance)",
+    "AI Actors": [
+      "AI Design",
+      "AI Development",
+      "AI Deployment",
+      "Operation and Monitoring"
+    ],
+    "Topic": [
+      "Risk Culture",
+      "Governance",
+      "Impact Assessment"
+    ],
+    "query": [
+      "What is the purpose of conducting impact assessments for AI systems within your organization?",
+      "How do you integrate impact assessments into the AI lifecycle (design, development, deployment, operation, and monitoring)?",
+      "What specific risks and potential impacts of AI systems does your organization document?",
+      "How does your organization ensure that impact assessments are communicated to all relevant stakeholders?",
+      "What steps does your organization take to align impact assessments with relevant regulatory or legal requirements?",
+      "How does your organization verify that impact assessments are appropriate for evaluating the potential negative impacts of AI systems?",
+      "What mechanisms does your organization have in place to regularly update and revise impact assessments as AI systems evolve?",
+      "How does your organization utilize impact assessment findings to inform broader AI risk management activities?",
+      "What types of risks does your organization consider in impact assessments (e.g., bias, privacy, security, environmental, societal)?",
+      "How does your organization ensure that impact assessments consider the perspectives of potentially impacted communities, including marginalized groups?",
+      "What documentation does your organization maintain regarding the outcomes of impact assessments?",
+      "How does your organization ensure that impact assessments are conducted in a transparent and accountable manner?",
+      "What training or resources does your organization provide to staff to ensure effective implementation of impact assessments?",
+      "How does your organization handle conflicts of interest or undue influence in the impact assessment process?",
+      "What metrics or criteria does your organization use to evaluate the effectiveness of impact assessments?",
+      "How does your organization ensure that impact assessments are regularly reviewed and updated?",
+      "What role does leadership play in supporting and overseeing the impact assessment process?",
+      "How does your organization ensure that impact assessments are integrated with other governance and risk management processes?",
+      "What tools or frameworks does your organization use to conduct impact assessments?",
+      "How does your organization ensure that impact assessments are comprehensive and cover all relevant aspects of AI systems?",
+      "What steps does your organization take to address findings from impact assessments?",
+      "How does your organization ensure that impact assessments are accessible and understandable to all stakeholders?",
+      "What challenges has your organization faced in implementing impact assessments, and how have they been addressed?",
+      "How does your organization ensure that impact assessments are evidence-based and informed by data?",
+      "What mechanisms does your organization have in place to handle feedback from stakeholders during the impact assessment process?",
+      "How does your organization ensure that impact assessments are consistent across different AI projects and systems?",
+      "What steps does your organization take to ensure that impact assessments are conducted independently and objectively?",
+      "How does your organization ensure that impact assessments are used to inform decision-making throughout the AI lifecycle?",
+      "What steps does your organization take to ensure that impact assessments are transparent and accountable?",
+      "How does your organization ensure that impact assessments are regularly updated and reviewed?",
+      "What steps does your organization take to ensure that impact assessments are comprehensive and cover all relevant risks?",
+      "How does your organization ensure that impact assessments are aligned with organizational values and ethical considerations?",
+      "What steps does your organization take to ensure that impact assessments are communicated effectively to all stakeholders?",
+      "How does your organization ensure that impact assessments are integrated with other governance and risk management processes?",
+      "What tools or frameworks does your organization use to conduct impact assessments?",
+      "How does your organization ensure that impact assessments are evidence-based and informed by data?",
+      "What mechanisms does your organization have in place to handle feedback from stakeholders during the impact assessment process?",
+      "How does your organization ensure that impact assessments are consistent across different AI projects and systems?",
+      "What steps does your organization take to ensure that impact assessments are conducted independently and objectively?",
+      "How does your organization ensure that impact assessments are used to inform decision-making throughout the AI lifecycle?",
+      "What steps does your organization take to ensure that impact assessments are transparent and accountable?",
+      "How does your organization ensure that impact assessments are regularly updated and reviewed?",
+      "What steps does your organization take to ensure that impact assessments are comprehensive and cover all relevant risks?",
+      "How does your organization ensure that impact assessments are aligned with organizational values and ethical considerations?",
+      "What steps does your organization take to ensure that impact assessments are communicated effectively to all stakeholders?",
+      "How does your organization ensure that impact assessments are integrated with other governance and risk management processes?",
+      "What tools or frameworks does your organization use to conduct impact assessments?",
+      "How does your organization ensure that impact assessments are evidence-based and informed by data?",
+      "What mechanisms does your organization have in place to handle feedback from stakeholders during the impact assessment process?",
+      "How does your organization ensure that impact assessments are consistent across different AI projects and systems?",
+      "What steps does your organization take to ensure that impact assessments are conducted independently and objectively?",
+      "How does your organization ensure that impact assessments are used to inform decision-making throughout the AI lifecycle?",
+      "What steps does your organization take to ensure that impact assessments are transparent and accountable?",
+      "How does your organization ensure that impact assessments are regularly updated and reviewed?",
+      "What steps does your organization take to ensure that impact assessments are comprehensive and cover all relevant risks?",
+      "How does your organization ensure that impact assessments are aligned with organizational values and ethical considerations?"
+    ],
+    "validator": [
+      "The response should clearly articulate the purpose of impact assessments, such as identifying and mitigating risks, ensuring accountability, and aligning with organizational values.",
+      "The response should outline how impact assessments are integrated into each stage of the AI lifecycle, ensuring continuous monitoring and adaptation.",
+      "The response should detail the specific risks and impacts considered, such as bias, privacy, security, and societal impacts.",
+      "The response should describe mechanisms for communicating impact assessment findings to all relevant stakeholders, including impacted communities.",
+      "The response should identify relevant regulations and how impact assessments align with them, ensuring compliance and accountability.",
+      "The response should explain how the appropriateness of impact assessments is verified, ensuring they are thorough and relevant.",
+      "The response should outline how impact assessments are regularly updated, reflecting changes in the AI system and its environment.",
+      "The response should describe how impact assessment findings inform broader risk management strategies and decisions.",
+      "The response should list the types of risks considered, such as bias, privacy, security, environmental, and societal impacts.",
+      "The response should explain how the perspectives of impacted communities are included in impact assessments.",
+      "The response should provide examples of documentation maintained, such as risk registers and assessment reports.",
+      "The response should describe measures taken to ensure transparency and accountability in the assessment process.",
+      "The response should outline training programs and resources provided to staff for conducting assessments.",
+      "The response should explain mechanisms for identifying and managing conflicts of interest in assessments.",
+      "The response should provide criteria for evaluating the effectiveness of impact assessments, such as alignment with objectives and stakeholder feedback.",
+      "The response should outline how assessments are reviewed and updated to remain relevant and effective.",
+      "The response should describe leadership's role in supporting and overseeing the impact assessment process.",
+      "The response should explain how impact assessments are aligned with existing governance and risk management processes.",
+      "The response should identify tools or frameworks used, such as Microsoft's RAI framework or the AI Now impact assessment framework.",
+      "The response should describe how assessments are evidence-based, using data and analysis to inform findings.",
+      "The response should outline mechanisms for handling stakeholder feedback during assessments.",
+      "The response should explain how consistency is maintained across different AI projects and systems.",
+      "The response should describe steps taken to ensure assessments are conducted independently and objectively.",
+      "The response should explain how assessments inform decision-making at all stages of the AI lifecycle.",
+      "The response should outline steps to ensure transparency, accountability, and accessibility of impact assessments.",
+      "The response should describe how assessments are regularly reviewed and updated to reflect current conditions and risks.",
+      "The response should explain how assessments comprehensively cover all relevant risks and impacts.",
+      "The response should describe how assessments align with the organization's values and ethical considerations.",
+      "The response should outline how assessments are effectively communicated to all relevant parties, including technical and non-technical stakeholders.",
+      "The response should explain how impact assessments are integrated with other governance and risk management processes to ensure a holistic approach.",
+      "The response should identify specific tools or frameworks used to conduct impact assessments, ensuring they are appropriate and effective.",
+      "The response should describe how impact assessments are grounded in data and evidence, ensuring reliability and validity.",
+      "The response should outline mechanisms for incorporating stakeholder feedback into the impact assessment process, ensuring inclusivity and relevance.",
+      "The response should explain how impact assessments are standardized across different AI projects and systems, ensuring consistency and comparability.",
+      "The response should describe steps taken to ensure the independence and objectivity of impact assessments, preventing bias and conflicts of interest.",
+      "The response should explain how impact assessments are used to guide decision-making at all stages of the AI lifecycle, ensuring informed and responsible choices.",
+      "The response should outline steps to ensure transparency, accountability, and accessibility of impact assessments, fostering trust and credibility.",
+      "The response should describe how impact assessments are regularly reviewed and updated to reflect evolving risks and system changes.",
+      "The response should explain how impact assessments comprehensively address all potential risks and impacts, ensuring no critical aspects are overlooked.",
+      "The response should describe how impact assessments are aligned with the organization's ethical principles and values, ensuring responsible AI development and use."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 4.3",
+    "category": "GOVERN-4",
+    "description": "Organizational practices are in place to enable AI testing, identification of incidents, and information sharing.",
+    "section_about": "Identifying AI system limitations, detecting and tracking negative impacts and incidents, and sharing information about these issues with appropriate AI actors will improve risk management. Issues such as concept drift, AI bias and discrimination, shortcut learning or underspecification are difficult to identify using current standard AI testing processes. Organizations can institute in-house use and testing policies and procedures to identify and manage such issues. Efforts can take the form of pre-alpha or pre-beta testing, or deploying internally developed systems or products within the organization. Testing may entail limited and controlled in-house, or publicly available, AI system testbeds, and accessibility of AI system interfaces and outputs.\n\nWithout policies and procedures that enable consistent testing practices, risk management efforts may be bypassed or ignored, exacerbating risks or leading to inconsistent risk management activities.\n\nInformation sharing about impacts or incidents detected during testing or deployment can:\n\n* draw attention to AI system risks, failures, abuses or misuses, \n* allow organizations to benefit from insights based on a wide range of AI applications and implementations, and \n* allow organizations to be more proactive in avoiding known failure modes.\n\nOrganizations may consider sharing incident information with the AI Incident Database, the AIAAIC, users, impacted communities, or with traditional cyber vulnerability databases, such as the MITRE CVE list.",
+    "section_actions": "- Establish policies and procedures to facilitate and equip AI system testing.\n- Establish organizational commitment to identifying AI system limitations and sharing of insights about limitations within appropriate AI actor groups.\n- Establish policies for reporting and documenting incident response.\n- Establish policies and processes regarding public disclosure of incidents and information sharing.\n- Establish guidelines for incident handling related to AI system risks and performance.",
+    "section_doc": "### Organizations can document the following\n- Did your organization address usability problems and test whether user interfaces served their intended purposes? Consulting the community or end users at the earliest stages of development to ensure there is transparency on the technology used and how it is deployed.\n- Did your organization implement a risk management system to address risks involved in deploying the identified AI solution (e.g. personnel risk or changes to commercial objectives)?\n- To what extent can users or parties affected by the outputs of the AI system test the AI system and provide feedback?\n\n### AI Transparency Resources\n- WEF Model AI Governance Framework Assessment 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf)\n- WEF Companion to the Model AI Governance Framework- 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGIsago.pdf)",
+    "section_ref": "Sean McGregor, \u201cPreventing Repeated Real World AI Failures by Cataloging Incidents: The AI Incident Database,\u201d arXiv:2011.08512 [cs], Nov. 2020, arXiv:2011.08512. [URL](http://arxiv.org/abs/2011.08512)\n\nChristopher Johnson, Mark Badger, David Waltermire, Julie Snyder, and Clem Skorupka,  \u201cGuide to cyber threat information sharing,\u201d National Institute of Standards and Technology, NIST Special Publication 800-150, Nov 2016. [URL](https://doi.org/10.6028/NIST.SP.800-150)\n\nMengyi Wei, Zhixuan Zhou (2022). AI Ethics Issues in Real World: Evidence from AI Incident Database. ArXiv, abs/2206.07635. [URL](https://arxiv.org/pdf/2206.07635.pdf)\n\nBSA The Software Alliance (2021) Confronting Bias: BSA\u2019s Framework to Build Trust in AI. [URL](https://www.bsa.org/reports/confronting-bias-bsas-framework-to-build-trust-in-ai)\n\n\u201cUsing Combined Expertise to Evaluate Web Accessibility,\u201d W3C Web Accessibility Initiative. [URL](https://www.w3.org/WAI/test-evaluate/combined-expertise/)",
+    "AI Actors": [
+      "TEVV",
+      "Operation and Monitoring",
+      "Governance and Oversight",
+      "Fairness and Bias"
+    ],
+    "Topic": [
+      "Risk Culture",
+      "Governance",
+      "AI Incidents",
+      "Impact Assessment",
+      "Drift",
+      "Fairness and Bias"
+    ],
+    "query": [
+      "What specific policies and procedures has your organization established to facilitate AI system testing?",
+      "How does your organization ensure the identification of AI system limitations and sharing of insights?",
+      "What mechanisms are in place for reporting and documenting incident responses?",
+      "How does your organization handle public disclosure of incidents and information sharing?",
+      "What guidelines does your organization follow for incident handling related to AI system risks and performance?",
+      "How does your organization ensure transparency and feedback mechanisms for users affected by AI system outputs?",
+      "What resources or frameworks does your organization use to support AI governance and incident management?",
+      "How does your organization ensure compliance with relevant AI risk management standards and guidelines?",
+      "What training and awareness programs does your organization provide to staff regarding AI incident management?",
+      "How does your organization measure the effectiveness of its AI testing and incident response processes?"
+    ],
+    "validator": [
+      "The organization should have established clear policies and procedures for AI testing, including pre-alpha and pre-beta testing phases, and internal deployment of AI systems.",
+      "The organization should demonstrate a commitment to identifying AI system limitations and sharing insights with appropriate AI actor groups, including internal teams and external stakeholders.",
+      "The organization should have documented processes for reporting and documenting incident responses, including the use of AI incident databases and other relevant resources.",
+      "The organization should have policies in place for public disclosure of incidents and information sharing, ensuring alignment with privacy and confidentiality requirements.",
+      "The organization should have established guidelines for incident handling, including procedures for detecting and tracking negative impacts and incidents related to AI systems.",
+      "The organization should ensure that users and affected parties have the ability to test AI systems and provide feedback, with mechanisms in place to act on this feedback.",
+      "The organization should reference relevant resources and frameworks, such as the WEF Model AI Governance Framework and the MITRE CVE list, to support AI governance and incident management practices.",
+      "The organization should ensure compliance with relevant standards and guidelines, such as NIST SP 800-150 and the W3C Web Accessibility Initiative, to enhance AI risk management.",
+      "The organization should provide regular training and awareness programs to staff on AI incident management, emphasizing the importance of proactive risk management and incident response.",
+      "The organization should measure the effectiveness of its AI testing and incident response processes through metrics such as incident detection rates, response times, and user feedback, ensuring continuous improvement."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 5.1",
+    "category": "GOVERN-5",
+    "description": "Organizational policies and practices are in place to collect, consider, prioritize, and integrate feedback from those external to the team that developed or deployed the AI system regarding the potential individual and societal impacts related to AI risks.",
+    "section_about": "Beyond internal and laboratory-based system testing, organizational policies and practices may consider AI system fitness-for-purpose related to the intended context of use.\n\nParticipatory stakeholder engagement is one type of qualitative activity to help AI actors answer questions such as whether to pursue a project or how to design with impact in mind. This type of feedback, with domain expert input, can also assist AI actors to identify emergent scenarios and risks in certain AI applications. The consideration of when and how to convene a group and the kinds of individuals, groups, or community organizations to include is an iterative process connected to the system's purpose and its level of risk. Other factors relate to how to collaboratively and respectfully capture stakeholder feedback and insight that is useful, without being a solely perfunctory exercise.\n\nThese activities are best carried out by personnel with expertise in participatory practices, qualitative methods, and translation of contextual feedback for technical audiences.\n\nParticipatory engagement is not a one-time exercise and is best carried out from the very beginning of AI system commissioning through the end of the lifecycle. Organizations can consider how to incorporate engagement when beginning a project and as part of their monitoring of systems. Engagement is often utilized as a consultative practice, but this perspective may inadvertently lead to \u201cparticipation washing.\u201d Organizational transparency about the purpose and goal of the engagement can help mitigate that possibility.\n\nOrganizations may also consider targeted consultation with subject matter experts as a complement to participatory findings. Experts may assist internal staff in identifying and conceptualizing potential negative impacts that were previously not considered.",
+    "section_actions": "- Establish AI risk management policies that explicitly address mechanisms for collecting, evaluating, and incorporating stakeholder and user feedback that could include:\n    - Recourse mechanisms for faulty AI system outputs.\n    - Bug bounties.\n    - Human-centered design.\n    - User-interaction and experience research.\n    - Participatory stakeholder engagement with individuals and communities that may experience negative impacts.\n- Verify that stakeholder feedback is considered and addressed, including environmental concerns, and across the entire population of intended users, including historically excluded populations, people with disabilities, older people, and those with limited access to the internet and other basic technologies.\n- Clarify the organization\u2019s principles as they apply to AI systems \u2013 considering those which have been proposed publicly \u2013 to inform external stakeholders of the organization\u2019s values. Consider publishing or adopting AI principles.",
+    "section_doc": "### Organizations can document the following \n- What type of information is accessible on the design, operations, and limitations of the AI system to external stakeholders, including end users, consumers, regulators, and individuals impacted by use of the AI system?\n- To what extent has the entity clarified the roles, responsibilities, and delegated authorities to relevant stakeholders?\n- How easily accessible and current is the information available to external stakeholders?\n- What was done to mitigate or reduce the potential for harm?\n- Stakeholder involvement: Include diverse perspectives from a community of stakeholders throughout the AI life cycle to mitigate risks.\n\n### AI Transparency Resources\n- Datasheets for Datasets. [URL](http://arxiv.org/abs/1803.09010)\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)\n- AI policies and initiatives, in Artificial Intelligence in Society, OECD, 2019. [URL](https://www.oecd.org/publications/artificial-intelligence-in-society-eedfee77-en.htm)\n- Stakeholders in Explainable AI, Sep. 2018. [URL](http://arxiv.org/abs/1810.00184)",
+    "section_ref": "ISO, \u201cErgonomics of human-system interaction \u2014 Part 210: Human-centered design for interactive systems,\u201d ISO 9241-210:2019 (2nd ed.), July 2019. [URL](https://www.iso.org/standard/77520.html)\n\nRumman Chowdhury and Jutta Williams, \"Introducing Twitter\u2019s first algorithmic bias bounty challenge,\" [URL](https://blog.twitter.com/engineering/en_us/topics/insights/2021/algorithmic-bias-bounty-challenge)\n\nLeonard Haas and Sebastian Gie\u00dfler, \u201cIn the realm of paper tigers \u2013 exploring the failings of AI ethics guidelines,\u201d AlgorithmWatch, 2020. [URL](https://algorithmwatch.org/en/ai-ethics-guidelines-inventory-upgrade-2020/)\n\nJosh Kenway, Camille Francois, Dr. Sasha Costanza-Chock, Inioluwa Deborah Raji, & Dr. Joy Buolamwini. 2022. Bug Bounties for Algorithmic Harms? Algorithmic Justice League. Accessed July 14, 2022. [URL](https://www.ajl.org/bugs)\n\nMicrosoft Community Jury , Azure Application Architecture Guide. [URL](https://docs.microsoft.com/en-us/azure/architecture/guide/responsible-innovation/community-jury/)\n\n\u201cDefinition of independent verification and validation (IV&V)\u201d, in IEEE 1012, IEEE Standard for System, Software, and Hardware Verification and Validation. Annex C, [URL](https://people.eecs.ku.edu/~hossein/Teaching/Stds/1012.pdf)",
+    "AI Actors": [
+      "AI Design",
+      "Governance and Oversight",
+      "AI Impact Assessment",
+      "Affected Individuals and Communities"
+    ],
+    "Topic": [
+      "Participation",
+      "Governance",
+      "Impact Assessment"
+    ],
+    "query": [
+      "What mechanisms does your organization have in place to collect and consider feedback from external stakeholders regarding AI risks?",
+      "How does your organization ensure that feedback from external stakeholders is prioritized and integrated into AI risk management processes?",
+      "What types of feedback mechanisms are used to gather input from individuals and communities that may experience negative impacts of AI systems?",
+      "How does your organization ensure that feedback collection processes are accessible and inclusive to historically excluded populations?",
+      "What steps does your organization take to ensure that feedback is considered in the design, deployment, and monitoring of AI systems?",
+      "How does your organization communicate its AI principles and values to external stakeholders to inform them about the organization's approach to AI risks?",
+      "What processes are in place to verify that stakeholder feedback is effectively considered and addressed in AI risk management?",
+      "How does your organization ensure that feedback processes are iterative and ongoing throughout the AI system lifecycle?",
+      "What steps does your organization take to mitigate the risk of 'participation washing' in stakeholder engagement activities?",
+      "How does your organization ensure that feedback processes are transparent and that stakeholders understand the purpose and goals of the engagement?",
+      "What types of resources or training does your organization provide to personnel involved in collecting and evaluating stakeholder feedback?",
+      "How does your organization ensure that feedback processes are aligned with relevant standards and guidelines, such as ISO 9241-210 and IEEE 1012?",
+      "What steps does your organization take to ensure that feedback processes are scalable and adaptable to different AI systems and contexts?",
+      "How does your organization ensure that feedback processes are integrated with other AI governance and risk management activities?",
+      "What metrics or indicators does your organization use to assess the effectiveness of stakeholder feedback processes?"
+    ],
+    "validator": [
+      "The answer should describe specific mechanisms for collecting feedback, such as surveys, focus groups, or public consultations. It should also explain how feedback is prioritized and integrated into decision-making processes.",
+      "The answer should outline the criteria used to prioritize feedback and the processes for integrating it into AI risk management. It should demonstrate a clear link between feedback and actionable outcomes.",
+      "The answer should specify the types of feedback mechanisms used, such as participatory design sessions, community advisory boards, or user testing. It should also explain how these mechanisms are tailored to the needs of affected communities.",
+      "The answer should describe steps taken to ensure accessibility, such as providing materials in multiple languages, offering accommodations for individuals with disabilities, and ensuring digital accessibility for those with limited internet access.",
+      "The answer should outline the processes for considering feedback at different stages of the AI system lifecycle. It should include examples of how feedback has been used to modify or improve AI systems.",
+      "The answer should describe how the organization's AI principles are communicated to external stakeholders. It should include examples of public-facing documents, such as AI ethics statements or stakeholder engagement reports.",
+      "The answer should describe processes for verifying feedback integration, such as audits, third-party reviews, or internal evaluations. It should demonstrate a commitment to continuous improvement based on feedback.",
+      "The answer should explain how feedback processes are designed to be iterative and ongoing. It should include examples of how feedback is collected and used at different stages of the AI system lifecycle.",
+      "The answer should describe steps taken to prevent 'participation washing,' such as ensuring meaningful stakeholder involvement, providing decision-making authority to stakeholders, and transparently documenting the feedback process.",
+      "The answer should explain how the purpose and goals of stakeholder engagement are communicated to participants. It should include examples of transparency in the feedback process and how outcomes are reported back to stakeholders.",
+      "The answer should describe training programs for personnel involved in feedback collection and evaluation. It should include topics such as participatory practices, qualitative methods, and translating feedback for technical audiences.",
+      "The answer should explain how feedback processes align with relevant standards and guidelines. It should include examples of how these standards are applied in practice.",
+      "The answer should describe how feedback processes are designed to be scalable and adaptable. It should include examples of how processes are tailored to different AI systems and contexts.",
+      "The answer should explain how feedback processes are integrated with other AI governance and risk management activities. It should include examples of cross-functional collaboration and information sharing.",
+      "The answer should describe metrics or indicators used to assess the effectiveness of feedback processes. It should include examples of how these metrics are measured and used to improve the process."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 5.2",
+    "category": "GOVERN-5",
+    "description": "Mechanisms are established to enable AI actors to regularly incorporate adjudicated feedback from relevant AI actors into system design and implementation.",
+    "section_about": "Organizational policies and procedures that equip AI actors with the processes, knowledge, and expertise needed to inform collaborative decisions about system deployment improve risk management. These decisions are closely tied to AI systems and organizational risk tolerance.\n\nRisk tolerance, established by organizational leadership, reflects the level and type of risk the organization will accept while conducting its mission and carrying out its strategy. When risks arise, resources are allocated based on the assessed risk of a given AI system. Organizations typically apply a risk tolerance approach where higher risk systems receive larger allocations of risk management resources and lower risk systems receive less resources.",
+    "section_actions": "- Explicitly acknowledge that AI systems, and the use of AI, present inherent costs and risks along with potential benefits.\n- Define reasonable risk tolerances for AI systems informed by laws, regulation, best practices, or industry standards.\n- Establish policies that ensure all relevant AI actors are provided with meaningful opportunities to provide feedback on system design and implementation.\n- Establish policies that define how to assign AI systems to established risk tolerance levels by combining system impact assessments with the likelihood that an impact occurs. Such assessment often entails some combination of:\n    - Econometric evaluations of impacts and impact likelihoods to assess AI system risk.\n    - Red-amber-green (RAG) scales for impact severity and likelihood to assess AI system risk.\n    - Establishment of policies for allocating risk management resources along established risk tolerance levels, with higher-risk systems receiving more risk management resources and oversight.\n    - Establishment of policies for approval, conditional approval, and disapproval of the design, implementation, and deployment of AI systems.\n- Establish policies facilitating the early decommissioning of AI systems that surpass an organization\u2019s ability to reasonably mitigate risks.",
+    "section_doc": "### Organizations can document the following\n- Who is ultimately responsible for the decisions of the AI and is this person aware of the intended uses and limitations of the analytic?\n- Who will be responsible for maintaining, re-verifying, monitoring, and updating this AI once deployed?\n- Who is accountable for the ethical considerations during all stages of the AI lifecycle?\n- To what extent are the established procedures effective in mitigating bias, inequity, and other concerns resulting from the system?\n- Does the AI solution provide sufficient information to assist the personnel to make an informed decision and take actions accordingly?\n\n### AI Transparency Resources\n- WEF Model AI Governance Framework Assessment 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf)\n- WEF Companion to the Model AI Governance Framework- 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGIsago.pdf)\n- Stakeholders in Explainable AI, Sep. 2018. [URL](http://arxiv.org/abs/1810.00184)\n- AI policies and initiatives, in Artificial Intelligence in Society, OECD, 2019. [URL](https://www.oecd.org/publications/artificial-intelligence-in-society-eedfee77-en.htm)",
+    "section_ref": "Bd. Governors Fed. Rsrv. Sys., Supervisory Guidance on Model Risk Management, SR Letter 11-7 (Apr. 4, 2011)\n\nOff. Comptroller Currency, Comptroller\u2019s Handbook: Model Risk Management (Aug. 2021). [URL](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)\n\nThe Office of the Comptroller of the Currency. Enterprise Risk Appetite Statement. (Nov. 20, 2019). Retrieved on July 12, 2022. [URL](https://www.occ.treas.gov/publications-and-resources/publications/banker-education/files/pub-risk-appetite-statement.pdf)",
+    "AI Actors": [
+      "AI Impact Assessment",
+      "Governance and Oversight",
+      "Operation and Monitoring"
+    ],
+    "Topic": [
+      "Participation",
+      "Governance",
+      "Impact Assessment"
+    ],
+    "query": [
+      "How does your organization ensure that feedback from relevant AI actors is regularly incorporated into AI system design and implementation?",
+      "What mechanisms are in place to facilitate the collection and integration of feedback from AI actors?",
+      "How are risk tolerances for AI systems defined and documented?",
+      "What processes are in place to ensure that all relevant AI actors have meaningful opportunities to provide feedback on system design and implementation?",
+      "How are AI systems assigned to established risk tolerance levels?",
+      "What types of assessments (e.g., econometric evaluations, RAG scales) are used to evaluate AI system risk?",
+      "How are risk management resources allocated based on risk tolerance levels?",
+      "What policies are in place for the approval, conditional approval, and disapproval of AI systems?",
+      "How does your organization ensure the early decommissioning of AI systems that exceed risk tolerance levels?",
+      "What documentation is maintained to demonstrate compliance with these policies and procedures?"
+    ],
+    "validator": [
+      "The organization should describe specific mechanisms, such as feedback loops, review boards, or collaborative workshops, that facilitate the integration of feedback into AI system design and implementation.",
+      "The organization should outline clear processes, such as regular feedback sessions, surveys, or reporting channels, to collect and integrate feedback from AI actors.",
+      "The organization should provide a documented risk tolerance framework that includes thresholds for acceptable levels of risk, informed by legal, regulatory, and industry standards.",
+      "The organization should detail policies that ensure all relevant stakeholders, including developers, users, and oversight bodies, have opportunities to provide input on AI systems.",
+      "The organization should describe a process for categorizing AI systems into risk tolerance levels, such as low, medium, and high risk, based on impact assessments and likelihood of impacts.",
+      "The organization should specify the types of assessments used, such as econometric evaluations or RAG scales, and provide examples of how they are applied to assess AI system risk.",
+      "The organization should outline a resource allocation plan that prioritizes higher-risk systems for greater oversight and resource allocation.",
+      "The organization should provide documentation of approval processes, including criteria for approval, conditional approval, and disapproval of AI systems.",
+      "The organization should describe policies and procedures for the early identification and decommissioning of AI systems that exceed risk tolerance levels.",
+      "The organization should provide evidence of documentation, such as meeting minutes, risk assessments, and approval records, to demonstrate compliance with these policies."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 6.1",
+    "category": "GOVERN-6",
+    "description": "Policies and procedures are in place that address AI risks associated with third-party entities, including risks of infringement of a third party\u2019s intellectual property or other rights.",
+    "section_about": "Risk measurement and management can be complicated by how customers use or integrate third-party data or systems into AI products or services, particularly without sufficient internal governance structures and technical safeguards. \n\nOrganizations usually engage multiple third parties for external expertise, data, software packages (both open source and commercial), and software and hardware platforms across the AI lifecycle. This engagement has beneficial uses and can increase complexities of risk management efforts.\n\nOrganizational approaches to managing third-party (positive and negative) risk may be tailored to the resources, risk profile, and use case for each system. Organizations can apply governance approaches to third-party AI systems and data as they would for internal resources \u2014 including open source software, publicly available data, and commercially available models.",
+    "section_actions": "- Collaboratively establish policies that address third-party AI systems and data.\n- Establish policies related to:\n    - Transparency into third-party system functions, including knowledge about training data, training and inference algorithms, and assumptions and limitations.\n    - Thorough testing of third-party AI systems. (See MEASURE for more detail)\n    - Requirements for clear and complete instructions for third-party system usage.\n- Evaluate policies for third-party technology. \n- Establish policies that address supply chain, full product lifecycle and associated processes, including legal, ethical, and other issues concerning procurement and use of third-party software or hardware systems and data.",
+    "section_doc": "### Organizations can document the following\n- Did you establish mechanisms that facilitate the AI system\u2019s auditability (e.g. traceability of the development process, the sourcing of training data and the logging of the AI system\u2019s processes, outcomes, positive and negative impact)?\n- If a third party created the AI, how will you ensure a level of explainability or interpretability?\n- Did you ensure that the AI system can be audited by independent third parties?\n- Did you establish a process for third parties (e.g. suppliers, end users, subjects, distributors/vendors or workers) to report potential vulnerabilities, risks or biases in the AI system?\n- To what extent does the plan specifically address risks associated with acquisition, procurement of packaged software from vendors, cybersecurity controls, computational infrastructure, data, data science, deployment mechanics, and system failure?\n\n### AI Transparency Resources\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)\n- Intel.gov: AI Ethics Framework for Intelligence Community  - 2020. [URL](https://www.intelligence.gov/artificial-intelligence-ethics-framework-for-the-intelligence-community)\n- WEF Model AI Governance Framework Assessment 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf)\n- WEF Companion to the Model AI Governance Framework- 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGIsago.pdf)\n- AI policies and initiatives, in Artificial Intelligence in Society, OECD, 2019. [URL](https://www.oecd.org/publications/artificial-intelligence-in-society-eedfee77-en.htm)\n- Assessment List for Trustworthy AI (ALTAI) - The High-Level Expert Group on AI - 2019. [URL](https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment)",
+    "section_ref": "Bd. Governors Fed. Rsrv. Sys., Supervisory Guidance on Model Risk Management, SR Letter 11-7 (Apr. 4, 2011)\n\n\u201cProposed Interagency Guidance on Third-Party Relationships: Risk Management,\u201d 2021. [URL](https://www.occ.gov/news-issuances/news-releases/2021/nr-occ-2021-74a.pdf)\n\nOff. Comptroller Currency, Comptroller\u2019s Handbook: Model Risk Management (Aug. 2021). [URL](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)",
+    "AI Actors": [
+      "Third-party entities",
+      "Operation and Monitoring",
+      "Procurement"
+    ],
+    "Topic": [
+      "Third-party",
+      "Legal and Regulatory",
+      "Procurement",
+      "Supply Chain",
+      "Governance"
+    ],
+    "query": [
+      "Can you identify the third-party entities involved in your AI system?",
+      "How do you evaluate the risks associated with third-party AI systems?",
+      "What transparency requirements do you have for third-party systems?",
+      "How do you ensure third-party AI systems are thoroughly tested?",
+      "What criteria do you use to evaluate third-party AI systems?",
+      "How do you document third-party AI system evaluations?",
+      "What steps do you take to address third-party risks?",
+      "How do you ensure compliance with legal and regulatory requirements for third-party systems?",
+      "What mechanisms are in place for third-party system auditability?",
+      "How do you handle potential vulnerabilities or biases in third-party AI systems?",
+      "What is your process for third-party system procurement?",
+      "How do you ensure third-party system supply chain risks are managed?",
+      "What governance structures are in place for third-party AI systems?",
+      "How do you ensure third-party AI systems align with organizational governance?",
+      "What steps do you take to ensure third-party AI systems are secure?",
+      "How do you handle third-party system updates and maintenance?",
+      "What is your process for third-party system termination?",
+      "How do you ensure third-party AI systems meet ethical standards?",
+      "What steps do you take to ensure third-party AI systems are explainable?",
+      "How do you handle third-party system failures?"
+    ],
+    "validator": [
+      "A comprehensive list of third-party entities involved in the AI system should be provided.",
+      "Evaluation should include risk assessment frameworks and methodologies specific to third-party AI systems.",
+      "Transparency requirements should include documentation on data sources, algorithms, and limitations.",
+      "Testing should involve rigorous validation processes, including testing of third-party components.",
+      "Evaluation criteria should be clearly defined and aligned with organizational goals and risk tolerance.",
+      "Documentation should be thorough, including records of evaluations, decisions, and actions taken.",
+      "Addressing risks should include mitigation strategies, contingency plans, and regular monitoring.",
+      "Compliance should be ensured through regular audits and adherence to relevant laws and regulations.",
+      "Auditability should be facilitated by maintaining detailed records and logs of system activities.",
+      "Handling vulnerabilities should include incident response plans and regular security updates.",
+      "Procurement processes should include due diligence, vendor assessments, and contract negotiations.",
+      "Supply chain risks should be managed through risk assessments, vendor management, and contingency planning.",
+      "Governance structures should include roles, responsibilities, and decision-making processes.",
+      "Alignment with organizational governance should ensure consistency in policies and practices.",
+      "Security measures should include access controls, encryption, and regular security assessments.",
+      "Updates and maintenance should be managed through vendor agreements and regular system reviews.",
+      "Termination processes should include data retrieval, system decommissioning, and post-termination reviews.",
+      "Ethical standards should be ensured through ethical reviews, stakeholder engagement, and compliance with ethical guidelines.",
+      "Ensuring explainability should involve documentation and testing to ensure systems can be understood and explained.",
+      "Handling failures should include incident response plans, root cause analysis, and corrective actions."
+    ]
+  },
+  {
+    "type": "Govern",
+    "title": "GOVERN 6.2",
+    "category": "GOVERN-6",
+    "description": "Contingency processes are in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk.",
+    "section_about": "To mitigate the potential harms of third-party system failures, organizations may implement policies and procedures that include redundancies for covering third-party functions.",
+    "section_actions": "- Establish policies for handling third-party system failures to include consideration of redundancy mechanisms for vital third-party AI systems.\n- Verify that incident response plans address third-party AI systems.",
+    "section_doc": "### Organizations can document the following\n- To what extent does the plan specifically address risks associated with acquisition, procurement of packaged software from vendors, cybersecurity controls, computational infrastructure, data, data science, deployment mechanics, and system failure?\n- Did you establish a process for third parties (e.g. suppliers, end users, subjects, distributors/vendors or workers) to report potential vulnerabilities, risks or biases in the AI system?\n- If your organization obtained datasets from a third party, did your organization assess and manage the risks of using such datasets?\n\n### AI Transparency Resources\n- GAO-21-519SP: AI Accountability Framework for Federal Agencies & Other Entities. [URL](https://www.gao.gov/products/gao-21-519sp)\n- WEF Model AI Governance Framework Assessment 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf)\n- WEF Companion to the Model AI Governance Framework- 2020. [URL](https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGIsago.pdf)\n- AI policies and initiatives, in Artificial Intelligence in Society, OECD, 2019. [URL](https://www.oecd.org/publications/artificial-intelligence-in-society-eedfee77-en.htm)",
+    "section_ref": "Bd. Governors Fed. Rsrv. Sys., Supervisory Guidance on Model Risk Management, SR Letter 11-7 (Apr. 4, 2011)\n\n\u201cProposed Interagency Guidance on Third-Party Relationships: Risk Management,\u201d 2021. [URL](https://www.occ.gov/news-issuances/news-releases/2021/nr-occ-2021-74a.pdf)\n\nOff. Comptroller Currency, Comptroller\u2019s Handbook: Model Risk Management (Aug. 2021). [URL](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)",
+    "AI Actors": [
+      "AI Deployment",
+      "TEVV",
+      "Operation and Monitoring",
+      "Third-party entities"
+    ],
+    "Topic": [
+      "Third-party",
+      "Governance",
+      "Risk Management",
+      "Supply Chain"
+    ],
+    "query": [
+      "Which third-party AI systems or data sources are considered high-risk and require contingency planning?",
+      "What specific redundancy mechanisms have been implemented for these high-risk third-party AI systems?",
+      "How are incident response plans for third-party AI systems verified to ensure they are effective?",
+      "What processes are in place for third parties to report potential vulnerabilities, risks, or biases in the AI system?",
+      "How does the organization assess and manage risks when obtaining datasets from third parties?",
+      "What steps are taken to ensure that third parties are aware of and adhere to the organization's AI governance policies?",
+      "How often are the contingency processes and incident response plans for third-party systems reviewed and updated?"
+    ],
+    "validator": [
+      "The answer should list all high-risk third-party systems and data sources, including their criticality and potential impact on the organization.",
+      "The answer should describe specific redundancy mechanisms, such as backup systems, failover processes, or alternative data sources, and how they ensure continuity of operations.",
+      "The answer should explain the verification process, including testing, simulations, or audits to confirm the effectiveness of incident response plans.",
+      "The answer should outline the reporting mechanisms, including channels for third-party reporting, response protocols, and integration with internal risk management processes.",
+      "The answer should describe the risk assessment methodologies and management strategies, including due diligence, contractual obligations, and monitoring mechanisms.",
+      "The answer should detail training programs, contractual agreements, or other measures ensuring third-party compliance with governance policies.",
+      "The answer should specify the review frequency, update processes, and criteria for revising contingency plans based on evolving risks or system changes."
+    ]
+  }
+]
