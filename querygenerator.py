@@ -7,9 +7,9 @@ load_dotenv()
 
 # === CONFIG ===
 api_key = os.getenv("GROQ_API_KEY")
-MODEL = "qwen-qwq-32b"
+MODEL = "llama-3.3-70b-versatile"
 INPUT_FILE = "nist_ai_rmf_playbook.json"
-OUTPUT_FILE = "enriched__govern_policy_sections_3.json"
+OUTPUT_FILE = "enriched__govern_policy_sections_4.json"
 
 client = Groq(api_key=api_key)
 
@@ -17,15 +17,16 @@ def generate_prompt(section):
     return f"""
 You are a reasoning-based policy agent tasked with helping organizations build AI governance policies that align with the NIST AI Risk Management Framework (NIST AI RMF).
 
-You will receive a single policy section in JSON format (from the RMF playbook). Your goal is to enrich this JSON with two new fields:
+You will receive a single policy section in JSON format (from the RMF playbook). Your goal is to enrich this JSON with three new fields:
 
-1. "query" – A comprehensive list of questions that a policy-building chatbot should ask the user (Must not exceed more than 3 questions).
-2. "validator" – Directions to follow for an LLM to judge the answer to the questions perfectly (no code, validator must be a single value).
+1. "query" – A comprehensive list of questions that a policy-building chatbot should ask the user (Must not exceed more than 3 questions, questions must not directly quote sections nor subsections of the playbook, only infer logic and understanding and validation from it).
+2. "validator" – Directions to follow for an LLM to judge the answer to the questions perfectly (no code, validator must be a single value, alright if it is detailed, should heavily include logic understood from the playbook json).
+3. "answers" - generate an example optimal answer (max 2) that matches the validator and is checked by it for correctness, and an additional invalid answer (must label if the answer is invalid).
 
 Section:
-{json.dumps(section, indent=2)}
+{json.dumps(section, indent=3)}
 
-Only return a valid JSON object with "query" and "validator" fields. Do NOT return explanations or answers.
+Only return a valid JSON object with "query", "validator" and "answer" fields. Do NOT return explanations.
 """
 
 def call_groq_chat(prompt):
@@ -74,7 +75,7 @@ def process_sections():
             print(output)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(enriched, f, indent=2)
+        json.dump(enriched, f, indent=3)
     print(f"\n✅ Done. Output saved to: {OUTPUT_FILE}")
 
 if __name__ == "__main__":

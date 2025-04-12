@@ -1,0 +1,342 @@
+--- Entry 1 ---
+Title:
+GOVERN 1.1
+Queries:
+  - Q1: What steps are being taken to ensure awareness of applicable legal and regulatory considerations for AI systems?
+  - Q2: How are risk management efforts aligned with applicable legal standards?
+  - Q3: What policies are in place for training organizational staff about necessary legal or regulatory considerations?
+Validator:
+The response should demonstrate a clear understanding of the organization's approach to managing legal and regulatory requirements for AI systems, including specific steps taken to maintain awareness, align risk management efforts, and train staff, with consideration for the digital divide, disabilities, and impairments that may impact AI system accessibility.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 2 ---
+Title:
+GOVERN 1.2
+Queries:
+  - Q1: What methods will your organization use to ensure that AI systems are designed with trustworthy characteristics?
+  - Q2: How will your organization's AI risk management policies be integrated with existing governance and risk controls?
+  - Q3: What processes will be established to monitor, audit, and review AI systems for potential risks and biases?
+Validator:
+The answer should provide specific details on how the organization will implement policies and procedures to ensure trustworthy AI characteristics, integrate AI risk management with existing governance, and establish processes for monitoring and reviewing AI systems, and should align with the NIST AI Risk Management Framework's emphasis on transparency, accountability, and risk management.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 3 ---
+Title:
+GOVERN 1.3
+Queries:
+  - Q1: How does your organization determine the level of risk management activities for its AI systems?
+  - Q2: What processes are in place to measure and prioritize risks based on the organization's risk tolerance?
+  - Q3: How does your organization assign AI systems to standardized risk scales?
+Validator:
+The answer should demonstrate a clear understanding of the organization's risk management approach, including the processes for measuring and prioritizing risks, and the use of standardized risk scales to allocate resources effectively. The response should also show an awareness of the organization's risk tolerance and how it informs risk management decisions.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 4 ---
+Title:
+GOVERN 1.4
+Queries:
+  - Q1: What steps will your organization take to ensure that AI system documentation is accurate, up-to-date, and accessible to all relevant stakeholders?
+  - Q2: How will your organization establish and review documentation policies to address information related to AI actors, business justification, and potential risks and impacts?
+  - Q3: What mechanisms will your organization put in place to verify the efficacy of risk management processes and identify areas for improvement?
+Validator:
+The answer should provide a clear and detailed description of the organization's approach to establishing, reviewing, and maintaining AI system documentation, including policies, procedures, and mechanisms for ensuring accuracy, accessibility, and efficacy, and should demonstrate an understanding of the importance of documentation in AI risk management and governance.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 5 ---
+Title:
+GOVERN 1.5
+Queries:
+  - Q1: What processes are in place for real-time monitoring and flagging of potential incidents in AI systems?
+  - Q2: How does the organization define and assign roles and responsibilities for AI system monitoring and incident response?
+  - Q3: What mechanisms are established for impacted individuals or communities to provide feedback or contest problematic AI system outcomes?
+Validator:
+The answer should describe specific, organized methods for monitoring AI systems, clear definitions of organizational roles and responsibilities, and established feedback and recourse mechanisms, aligning with NIST AI RMF principles for continuous improvement and accountability.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 6 ---
+Title:
+GOVERN 1.6
+Queries:
+  - Q1: What processes are in place to ensure the AI system inventory is regularly updated and maintained?
+  - Q2: How are AI models or systems prioritized for inclusion in the inventory, and what criteria are used to determine their risk level?
+  - Q3: What information is captured and stored in the AI system inventory to support model or system maintenance and incident response?
+Validator:
+The response should demonstrate a clear understanding of the importance of maintaining an accurate and up-to-date AI system inventory, including the processes and criteria used to prioritize and capture relevant information, and should align with the organization's risk management priorities and governance framework.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 7 ---
+Title:
+GOVERN 1.7
+Queries:
+  - Q1: What processes will be established for decommissioning AI systems to ensure safe and risk-free termination?
+  - Q2: How will the organization address user and community concerns during the decommissioning process?
+  - Q3: What measures will be taken to store and manage decommissioned AI systems and related artifacts?
+Validator:
+The response should demonstrate a clear understanding of the importance of systematic decommissioning processes, consideration of stakeholder concerns, and establishment of policies for storing and managing decommissioned AI systems, with specific reference to regulatory requirements, security, and reputational risks.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 8 ---
+Title:
+GOVERN 2.1
+Queries:
+  - Q1: What roles and responsibilities have been defined for AI risk management within the organization?
+  - Q2: How does the organization ensure clear lines of communication among AI actors?
+  - Q3: What measures are in place to prevent conflicts of interest and ensure independent course-correction of AI systems?
+Validator:
+The answer should provide specific examples of defined roles and responsibilities, communication protocols, and measures to prevent conflicts of interest, demonstrating a clear understanding of the organization's AI risk management structure and culture.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 9 ---
+Title:
+GOVERN 2.2
+Queries:
+  - Q1: What training programs does your organization have in place to ensure personnel understand AI risk management goals and their roles in achieving them?
+  - Q2: How does your organization verify that personnel have the necessary skills and training to design, develop, deploy, assess, and monitor AI systems?
+  - Q3: What mechanisms are in place to ensure that organizational AI policies include internal accountability and change management processes?
+Validator:
+The response should provide specific details about the training programs, including how they address AI risk management goals, technical and socio-technical aspects of AI risk management, and mechanisms for internal accountability and change management, demonstrating a clear understanding of the organization's AI risk management policies and procedures.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 10 ---
+Title:
+GOVERN 2.3
+Queries:
+  - Q1: What measures has your organization taken to ensure executive leadership is responsible for AI system development and deployment risks?
+  - Q2: How does your organization integrate a risk and harm prevention mindset throughout the AI lifecycle?
+  - Q3: What roles and responsibilities have been established for personnel involved in AI system design, development, deployment, assessment, and monitoring?
+Validator:
+Answers should demonstrate a clear understanding of AI risk management and governance, including specific examples of executive leadership involvement, risk management strategies, and defined roles and responsibilities, with a focus on organizational culture and accountability.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 11 ---
+Title:
+GOVERN 3.1
+Queries:
+  - Q1: How does your organization ensure that decision-making related to AI risk management involves a diverse team with various backgrounds and expertise?
+  - Q2: What strategies does your organization use to promote diversity, equity, and inclusion in AI development and deployment?
+  - Q3: How does your organization measure the effectiveness of its diversity and inclusion efforts in mitigating AI-related risks?
+Validator:
+The response should describe a clear and comprehensive approach to ensuring diversity and inclusion in AI decision-making, including specific strategies for promoting diversity and equity, and mechanisms for measuring effectiveness, such as regular audits, feedback mechanisms, and metrics for tracking diversity and inclusion metrics.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 12 ---
+Title:
+GOVERN 3.2
+Queries:
+  - Q1: What methods will be used to define and differentiate human roles and responsibilities in AI system oversight and governance?
+  - Q2: How will the organization ensure that AI actors have the necessary skills and training to fulfill their assigned responsibilities?
+  - Q3: What procedures will be established to capture and track risk information related to human-AI configurations and associated outcomes?
+Validator:
+The response should provide specific examples of policies, procedures, or guidelines that address the definition and differentiation of human roles and responsibilities, ensure AI actor proficiency, and establish risk management protocols, demonstrating a clear understanding of the importance of human-AI collaboration and oversight in AI system governance.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 13 ---
+Title:
+GOVERN 4.1
+Queries:
+  - Q1: What methods does your organization use to foster a culture of critical thinking and safety in AI system design and development?
+  - Q2: How does your organization ensure that AI system design and implementation decisions are challenged and reviewed by relevant experts?
+  - Q3: What mechanisms are in place to incentivize a safety-first mindset and prevent groupthink in AI system development and deployment?
+Validator:
+Look for evidence of a risk culture and practices that promote critical thinking, safety, and accountability, such as lines of defense, effective challenge, red-teaming, and whistleblower protections. Validate that answers demonstrate a commitment to minimizing negative impacts and a proactive approach to identifying and mitigating risks.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 14 ---
+Title:
+GOVERN 4.2
+Queries:
+  - Q1: What approach does your organization take to identify and assess potential risks and impacts of AI technology?
+  - Q2: How does your organization communicate the potential impacts of AI systems to stakeholders and ensure transparency?
+  - Q3: What mechanisms are in place to regularly review and update impact assessments as AI systems evolve over time?
+Validator:
+The response should demonstrate a clear understanding of the importance of impact assessments in identifying and mitigating potential risks and biases in AI systems, and describe a structured approach to conducting regular assessments, communicating results, and incorporating feedback from diverse stakeholders, including those potentially impacted by the AI system.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 15 ---
+Title:
+GOVERN 4.3
+Queries:
+  - Q1: What measures is your organization taking to identify and address potential AI system limitations and incidents?
+  - Q2: How does your organization facilitate information sharing about AI system risks and incidents among relevant stakeholders?
+  - Q3: What processes are in place to ensure consistent testing practices and risk management activities for AI systems?
+Validator:
+The answer should demonstrate a clear understanding of the organization's practices and procedures for AI testing, incident identification, and information sharing, including the establishment of policies and guidelines for reporting and documenting incident response, as well as a commitment to transparency and collaboration with relevant stakeholders.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 16 ---
+Title:
+GOVERN 5.1
+Queries:
+  - Q1: What mechanisms will your organization use to collect and incorporate stakeholder feedback on AI system outputs?
+  - Q2: How will your organization ensure that stakeholder feedback is considered and addressed across the entire population of intended users?
+  - Q3: What principles will your organization adopt to inform external stakeholders of its values regarding AI systems?
+Validator:
+The answer should demonstrate a clear understanding of participatory stakeholder engagement and provide specific examples of mechanisms for collecting and incorporating feedback, such as recourse mechanisms, bug bounties, human-centered design, or user-interaction research, and describe how the organization will ensure that feedback is considered and addressed for all users, including historically excluded populations.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 17 ---
+Title:
+GOVERN 5.2
+Queries:
+  - Q1: What processes are in place to ensure AI actors can provide feedback on system design and implementation?
+  - Q2: How does the organization allocate risk management resources based on assessed risk levels?
+  - Q3: What criteria are used to determine whether an AI system's risks can be reasonably mitigated?
+Validator:
+The answer should provide specific details about the organization's policies and procedures for incorporating feedback, allocating resources, and mitigating risks, and should demonstrate an understanding of the relationship between risk tolerance, resource allocation, and AI system deployment.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 18 ---
+Title:
+GOVERN 6.1
+Queries:
+  - Q1: What mechanisms do you have in place to ensure transparency into third-party system functions?
+  - Q2: How do you plan to evaluate and address potential risks associated with third-party AI systems and data?
+  - Q3: What processes have you established for reporting and addressing potential vulnerabilities or biases in third-party AI systems?
+Validator:
+Look for evidence of established policies and procedures for managing third-party AI risks, including transparency, testing, and evaluation of third-party systems, as well as mechanisms for reporting and addressing vulnerabilities or biases, and ensure that the answers align with the organization's overall risk management strategy and governance approach
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
+--- Entry 19 ---
+Title:
+GOVERN 6.2
+Queries:
+  - Q1: What procedures does your organization have in place to address potential failures in third-party AI systems?
+  - Q2: How do you currently assess and manage risks associated with third-party datasets?
+  - Q3: What mechanisms are in place for reporting and addressing potential vulnerabilities in third-party AI systems?
+Validator:
+The answer should describe specific policies, procedures, or mechanisms in place for mitigating risks associated with third-party AI system failures, including consideration of redundancy, incident response plans, and risk assessment for third-party datasets, and should mention the involvement of relevant stakeholders such as third-party entities, AI deployment teams, and operation and monitoring personnel.
+Valid_Answers:
+N/A
+Invalid Answer:
+N/A
+Invalid Reason:
+N/A
+
+========================================
+
